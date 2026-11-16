@@ -1,0 +1,1022 @@
+[
+  {
+    "query_id": "b_dev_table_01",
+    "category": "table",
+    "question": "Theo Bảng 19.2 (Trang 58), tỉ trọng nhóm dân số dưới 15 tuổi của thế giới giảm từ năm 1950 đến năm 2020 như thế nào?",
+    "results": [
+      {
+        "id": "sgk10_p58_table19_2_dotuoi",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 58,
+        "text": "BẢNG 19.2. CƠ CẤU DÂN SỐ THEO NHÓM TUỔI CỦA THẾ GIỚI GIAI ĐOẠN 1950 - 2020 (Đơn vị: %) (Trang 58):\n| Nhóm tuổi | Năm 1950 | Năm 1970 | Năm 1990 | Năm 2010 | Năm 2020 |\n|---|---|---|---|---|---|\n| Dưới 15 tuổi (0 - 14 tuổi) | 34,3 | 37,4 | 32,8 | 27,0 | 25,4 |\n| Từ 15 đến 64 tuổi | 60,6 | 57,3 | 61,0 | 65,3 | 65,3 |\n| Từ 65 tuổi trở lên | 5,1 | 5,3 | 6,2 | 7,7 | 9,3 |\nXu hướng: Tỉ trọng nhóm dưới 15 tuổi có xu hướng giảm liên tục từ 34,3% (1950) xuống 25,4% (2020), giảm 8,9%; tỉ trọng nhóm 65 tuổi trở lên tăng nhanh từ 5,1% lên 9,3%, cho thấy dân số thế giới đang già hóa.",
+        "metadata": {
+          "type": "table",
+          "title": "BẢNG 19.2. CƠ CẤU DÂN SỐ THEO NHÓM TUỔI CỦA THẾ GIỚI GIAI ĐOẠN 1950 - 2020",
+          "chapter": "Chương 8",
+          "lesson": "Bài 19",
+          "pdf_page": 59,
+          "crop_filename": "page_58_table19_2_dotuoi.png"
+        },
+        "score": 0.8315818273488134,
+        "rank": 1,
+        "retriever": "dense",
+        "hit": true
+      },
+      {
+        "id": "sgk10_p54_chart_giatangdanso",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 54,
+        "text": "Hình 18. Biểu đồ tỉ suất sinh thô, tỉ suất tử thô và tỉ suất gia tăng dân số tự nhiên thế giới giai đoạn 1950 - 2020 (Trang 54):\n- Năm 1950: Tỉ suất sinh thô là 36,9‰, tỉ suất tử thô là 19,1‰, tỉ suất gia tăng dân số tự nhiên là 1,78%.\n- Năm 1970: Tỉ suất sinh thô là 33,6‰, tỉ suất tử thô là 12,8‰, tỉ suất gia tăng tự nhiên là 2,08% (đỉnh điểm gia tăng).\n- Năm 2020: Tỉ suất sinh thô giảm còn 18,5‰, tỉ suất tử thô giảm xuống 7,6‰, tỉ suất gia tăng dân số tự nhiên giảm xuống 1,09%.\nNhận xét: Tỉ suất gia tăng dân số tự nhiên của thế giới có xu hướng giảm rõ rệt từ năm 1970 (2,08%) xuống còn 1,09% năm 2020.",
+        "metadata": {
+          "type": "chart",
+          "title": "Hình 18. Biểu đồ tỉ suất sinh thô, tỉ suất tử thô và tỉ suất gia tăng dân số tự nhiên thế giới",
+          "chapter": "Chương 8",
+          "lesson": "Bài 18",
+          "pdf_page": 55,
+          "crop_filename": "page_54_chart_giatangdanso.png"
+        },
+        "score": 0.7664483416915011,
+        "rank": 2,
+        "retriever": "dense",
+        "hit": false
+      },
+      {
+        "id": "sgk10_p61_table20_dothikoa",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 61,
+        "text": "BẢNG 20. TỈ LỆ DÂN THÀNH THỊ CỦA THẾ GIỚI VÀ CÁC NHÓM NƯỚC GIAI ĐOẠN 1950 - 2020 (Đơn vị: %) (Trang 61):\n| Nhóm nước | Năm 1950 | Năm 1970 | Năm 1990 | Năm 2010 | Năm 2020 |\n|---|---|---|---|---|---|\n| Nhóm nước phát triển | 54,9 | 66,7 | 71,2 | 76,5 | 79,1 |\n| Nhóm nước đang phát triển | 17,9 | 24,7 | 34,7 | 46,2 | 51,7 |\n| Toàn thế giới | 29,6 | 36,6 | 43,0 | 51,7 | 56,2 |\nNhận xét: Tỉ lệ dân thành thị toàn thế giới tăng liên tục từ 29,6% năm 1950 lên 56,2% năm 2020. Năm 2020, nhóm nước phát triển có tỉ lệ dân thành thị là 79,1%, cao hơn 27,4% so với nhóm nước đang phát triển (51,7%).",
+        "metadata": {
+          "type": "table",
+          "title": "BẢNG 20. TỈ LỆ DÂN THÀNH THỊ CỦA THẾ GIỚI VÀ CÁC NHÓM NƯỚC GIAI ĐOẠN 1950 - 2020",
+          "chapter": "Chương 8",
+          "lesson": "Bài 20",
+          "pdf_page": 62,
+          "crop_filename": "page_61_table20_dothikoa.png"
+        },
+        "score": 0.7607208002117909,
+        "rank": 3,
+        "retriever": "dense",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 1282.8166999997848
+  },
+  {
+    "query_id": "b_dev_table_02",
+    "category": "table",
+    "question": "Theo Bảng 20 (Trang 61), năm 2020 tỉ lệ dân thành thị của nhóm nước phát triển cao hơn nhóm nước đang phát triển bao nhiêu phần trăm?",
+    "results": [
+      {
+        "id": "sgk10_p61_table20_dothikoa",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 61,
+        "text": "BẢNG 20. TỈ LỆ DÂN THÀNH THỊ CỦA THẾ GIỚI VÀ CÁC NHÓM NƯỚC GIAI ĐOẠN 1950 - 2020 (Đơn vị: %) (Trang 61):\n| Nhóm nước | Năm 1950 | Năm 1970 | Năm 1990 | Năm 2010 | Năm 2020 |\n|---|---|---|---|---|---|\n| Nhóm nước phát triển | 54,9 | 66,7 | 71,2 | 76,5 | 79,1 |\n| Nhóm nước đang phát triển | 17,9 | 24,7 | 34,7 | 46,2 | 51,7 |\n| Toàn thế giới | 29,6 | 36,6 | 43,0 | 51,7 | 56,2 |\nNhận xét: Tỉ lệ dân thành thị toàn thế giới tăng liên tục từ 29,6% năm 1950 lên 56,2% năm 2020. Năm 2020, nhóm nước phát triển có tỉ lệ dân thành thị là 79,1%, cao hơn 27,4% so với nhóm nước đang phát triển (51,7%).",
+        "metadata": {
+          "type": "table",
+          "title": "BẢNG 20. TỈ LỆ DÂN THÀNH THỊ CỦA THẾ GIỚI VÀ CÁC NHÓM NƯỚC GIAI ĐOẠN 1950 - 2020",
+          "chapter": "Chương 8",
+          "lesson": "Bài 20",
+          "pdf_page": 62,
+          "crop_filename": "page_61_table20_dothikoa.png"
+        },
+        "score": 0.8620781098280847,
+        "rank": 1,
+        "retriever": "dense",
+        "hit": true
+      },
+      {
+        "id": "sgk10_p65_chart_cocaukinhte",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 65,
+        "text": "Hình 21. Biểu đồ cơ cấu ngành kinh tế của nhóm nước phát triển và đang phát triển năm 2020 (Trang 65):\n- Nhóm nước phát triển: Nông nghiệp, lâm nghiệp, thuỷ sản chiếm 1,5%; Công nghiệp và xây dựng chiếm 24,0%; Dịch vụ chiếm 74,5%.\n- Nhóm nước đang phát triển: Nông nghiệp, lâm nghiệp, thuỷ sản chiếm 10,2%; Công nghiệp và xây dựng chiếm 32,8%; Dịch vụ chiếm 57,0%.\nNhận xét: Nhóm nước phát triển có tỉ trọng ngành dịch vụ vượt trội (74,5%) so với nhóm nước đang phát triển (57,0%), trong khi tỉ trọng nông nghiệp rất thấp (chỉ 1,5%).",
+        "metadata": {
+          "type": "chart",
+          "title": "Hình 21. Biểu đồ cơ cấu ngành kinh tế của nhóm nước phát triển và đang phát triển năm 2020",
+          "chapter": "Chương 9",
+          "lesson": "Bài 21",
+          "pdf_page": 66,
+          "crop_filename": "page_65_chart_cocaukinhte.png"
+        },
+        "score": 0.8080522393173024,
+        "rank": 2,
+        "retriever": "dense",
+        "hit": false
+      },
+      {
+        "id": "sgk10_p75_table25_thuysan",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 75,
+        "text": "BẢNG 25. SẢN LƯỢNG THỦY SẢN THẾ GIỚI GIAI ĐOẠN 2000 - 2019 (Đơn vị: triệu tấn) (Trang 75):\n| Năm | Khai thác | Nuôi trồng | Tổng sản lượng |\n|---|---|---|---|\n| 2000 | 95,6 | 32,4 | 128,0 |\n| 2005 | 92,2 | 43,0 | 135,2 |\n| 2010 | 88,6 | 59,0 | 147,6 |\n| 2015 | 91,4 | 73,0 | 164,4 |\n| 2019 | 92,5 | 85,3 | 177,8 |\nNhận xét: Tổng sản lượng thủy sản tăng liên tục từ 128,0 triệu tấn (2000) lên 177,8 triệu tấn (2019). Sản lượng nuôi trồng tăng rất nhanh (gấp hơn 2,63 lần từ 32,4 lên 85,3 triệu tấn), trong khi sản lượng khai thác có xu hướng chững lại quanh mức 92 - 95 triệu tấn.",
+        "metadata": {
+          "type": "table",
+          "title": "BẢNG 25. SẢN LƯỢNG THỦY SẢN THẾ GIỚI GIAI ĐOẠN 2000 - 2019",
+          "chapter": "Chương 10",
+          "lesson": "Bài 25",
+          "pdf_page": 76,
+          "crop_filename": "page_75_table25_thuysan.png"
+        },
+        "score": 0.7262550881382219,
+        "rank": 3,
+        "retriever": "dense",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 152.3588000000018
+  },
+  {
+    "query_id": "b_dev_table_03",
+    "category": "table",
+    "question": "Theo Bảng 25 (Trang 75), sản lượng nuôi trồng thủy sản của thế giới tăng gấp bao nhiêu lần từ năm 2000 đến năm 2019?",
+    "results": [
+      {
+        "id": "sgk10_p75_table25_thuysan",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 75,
+        "text": "BẢNG 25. SẢN LƯỢNG THỦY SẢN THẾ GIỚI GIAI ĐOẠN 2000 - 2019 (Đơn vị: triệu tấn) (Trang 75):\n| Năm | Khai thác | Nuôi trồng | Tổng sản lượng |\n|---|---|---|---|\n| 2000 | 95,6 | 32,4 | 128,0 |\n| 2005 | 92,2 | 43,0 | 135,2 |\n| 2010 | 88,6 | 59,0 | 147,6 |\n| 2015 | 91,4 | 73,0 | 164,4 |\n| 2019 | 92,5 | 85,3 | 177,8 |\nNhận xét: Tổng sản lượng thủy sản tăng liên tục từ 128,0 triệu tấn (2000) lên 177,8 triệu tấn (2019). Sản lượng nuôi trồng tăng rất nhanh (gấp hơn 2,63 lần từ 32,4 lên 85,3 triệu tấn), trong khi sản lượng khai thác có xu hướng chững lại quanh mức 92 - 95 triệu tấn.",
+        "metadata": {
+          "type": "table",
+          "title": "BẢNG 25. SẢN LƯỢNG THỦY SẢN THẾ GIỚI GIAI ĐOẠN 2000 - 2019",
+          "chapter": "Chương 10",
+          "lesson": "Bài 25",
+          "pdf_page": 76,
+          "crop_filename": "page_75_table25_thuysan.png"
+        },
+        "score": 0.8656002753724399,
+        "rank": 1,
+        "retriever": "dense",
+        "hit": true
+      },
+      {
+        "id": "sgk10_p70_table24_1_luagao",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 70,
+        "text": "BẢNG 24.1. SẢN LƯỢNG LÚA GẠO VÀ LÚA MÌ CỦA THẾ GIỚI GIAI ĐOẠN 2000 - 2019 (Đơn vị: triệu tấn) (Trang 70):\n| Cây lương thực | Năm 2000 | Năm 2005 | Năm 2010 | Năm 2015 | Năm 2019 |\n|---|---|---|---|---|---|\n| Lúa gạo | 599,4 | 634,2 | 701,1 | 741,4 | 755,5 |\n| Lúa mì | 585,8 | 626,9 | 653,7 | 741,7 | 765,8 |\nNhận xét: Cả sản lượng lúa gạo và lúa mì đều tăng liên tục từ năm 2000 đến 2019. Năm 2019, sản lượng lúa mì (765,8 triệu tấn) vượt qua sản lượng lúa gạo (755,5 triệu tấn) với mức chênh lệch 10,3 triệu tấn. Lúa gạo phân bố chủ yếu ở khu vực nhiệt đới gió mùa (châu Á), lúa mì phân bố chủ yếu ở vùng ôn đới.",
+        "metadata": {
+          "type": "table",
+          "title": "BẢNG 24.1. SẢN LƯỢNG LÚA GẠO VÀ LÚA MÌ CỦA THẾ GIỚI GIAI ĐOẠN 2000 - 2019",
+          "chapter": "Chương 10",
+          "lesson": "Bài 24",
+          "pdf_page": 71,
+          "crop_filename": "page_70_table24_1_luagao.png"
+        },
+        "score": 0.7612946852594997,
+        "rank": 2,
+        "retriever": "dense",
+        "hit": false
+      },
+      {
+        "id": "sgk10_p104_table37_thuongmai",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 104,
+        "text": "BẢNG 37. TRỊ GIÁ XUẤT KHẨU VÀ NHẬP KHẨU HÀNG HÓA CỦA THẾ GIỚI GIAI ĐOẠN 2000 - 2019 (Đơn vị: tỉ USD) (Trang 104):\n| Năm | Xuất khẩu | Nhập khẩu | Tổng trị giá XNK |\n|---|---|---|---|\n| 2000 | 6.456 | 6.724 | 13.180 |\n| 2005 | 10.509 | 10.826 | 21.335 |\n| 2010 | 15.301 | 15.485 | 30.786 |\n| 2015 | 16.558 | 16.734 | 33.292 |\n| 2019 | 19.015 | 19.243 | 38.258 |\nNhận xét: Tổng trị giá xuất nhập khẩu hàng hóa thế giới tăng từ 13.180 tỉ USD (2000) lên 38.258 tỉ USD (2019), tăng gần gấp 3 lần (2,9 lần). Trong đó, năm 2019 xuất khẩu đạt 19.015 tỉ USD và nhập khẩu đạt 19.243 tỉ USD. Các nước đứng đầu về thương mại là Trung Quốc, Hoa Kỳ, Đức, Nhật Bản.",
+        "metadata": {
+          "type": "table",
+          "title": "BẢNG 37. TRỊ GIÁ XUẤT KHẨU VÀ NHẬP KHẨU HÀNG HÓA CỦA THẾ GIỚI GIAI ĐOẠN 2000 - 2019",
+          "chapter": "Chương 12",
+          "lesson": "Bài 37",
+          "pdf_page": 105,
+          "crop_filename": "page_104_table37_thuongmai.png"
+        },
+        "score": 0.7447538161460652,
+        "rank": 3,
+        "retriever": "dense",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 166.7631000000256
+  },
+  {
+    "query_id": "b_dev_diag_01",
+    "category": "diagram",
+    "question": "Theo Hình 5.2 ở Trang 19, người ta quy định kinh tuyến nào làm đường chuyển ngày quốc tế và quy tắc đổi ngày khi đi qua kinh tuyến đó?",
+    "results": [
+      {
+        "id": "sgk10_p19_map_gio",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 19,
+        "text": "Hình 5.2. Bản đồ giờ trên Trái Đất (Trang 19):\nNgười ta quy định lấy kinh tuyến 180 độ đi qua giữa múi giờ số 12 ở Thái Bình Dương làm đường chuyển ngày quốc tế. Nếu đi từ tây sang đông qua kinh tuyến 180 độ thì lùi lại một ngày lịch; nếu đi từ đông sang tây qua kinh tuyến 180 độ thì tăng thêm một ngày lịch. Bề mặt Trái Đất được chia làm 24 múi giờ, mỗi múi rộng 15 độ kinh tuyến. Giờ múi số 0 (giờ quốc tế GMT/UTC) đi qua đài thiên văn Grin-uých ở Luân Đôn (Vương quốc Anh).",
+        "metadata": {
+          "type": "map",
+          "title": "Bản đồ giờ trên Trái Đất và Đường chuyển ngày quốc tế",
+          "chapter": "Chương 2",
+          "lesson": "Bài 5",
+          "pdf_page": 20,
+          "crop_filename": "page_19_map_gio.png"
+        },
+        "score": 0.8036513860186079,
+        "rank": 1,
+        "retriever": "dense",
+        "hit": true
+      },
+      {
+        "id": "sgk10_p51_text_quyluatdiadoi",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 51,
+        "text": "Quy luật địa đới và Quy luật phi địa đới (Trang 51):\n1. Quy luật địa đới:\n- Là sự thay đổi có quy luật của tất cả các thành phần địa lí và cảnh quan địa lí theo vĩ độ (từ xích đạo về hai cực).\n- Nguyên nhân: Do dạng hình cầu của Trái Đất và góc chiếu của bức xạ mặt trời giảm dần từ xích đạo về hai cực, làm cho lượng bức xạ mặt trời phân bố không đều.\n- Biểu hiện: Các vòng đai nhiệt, các đai khí áp và đới gió, các đới khí hậu, các nhóm đất và thảm thực vật chính trên Trái Đất.\n2. Quy luật phi địa đới:\n- Là quy luật phân bố không phụ thuộc vào bức xạ mặt trời, gồm quy luật đai cao (thay đổi theo độ cao) và quy luật địa ô (thay đổi theo kinh độ từ bờ biển vào nội địa).",
+        "metadata": {
+          "type": "text",
+          "title": "Quy luật địa đới và Quy luật phi địa đới",
+          "chapter": "Chương 4",
+          "lesson": "Bài 15",
+          "pdf_page": 52,
+          "crop_filename": "page_51_text_quyluatdiadoi.png"
+        },
+        "score": 0.6843893225589042,
+        "rank": 2,
+        "retriever": "dense",
+        "hit": false
+      },
+      {
+        "id": "sgk10_p96_map_hangkhong_bien",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 96,
+        "text": "Hình 34.6. Bản đồ mạng lưới đường biển và đường hàng không trên thế giới, năm 2019 (Trang 96-97):\n1. Tình hình phát triển và phân bố ngành hàng không:\n- Năm 2019, ngành hàng không thế giới vận chuyển được hơn 4,4 tỉ lượt hành khách.\n- Các tuyến bay sôi động nhất: Tuyến xuyên Đại Tây Dương nối châu Âu với châu Mỹ và các tuyến nối Hoa Kỳ với châu Á - Thái Bình Dương.\n- Bốn sân bay quốc tế vận chuyển hành khách lớn nhất năm 2019 gồm: Át-lan-ta (Hoa Kỳ), Bắc Kinh (Trung Quốc), Lốt An-giơ-lét (Hoa Kỳ), Đu-bai (Các Tiểu vương quốc A-rập Thống nhất).\n2. Đường biển:\n- Tuyến đường biển sôi động nhất kết nối châu Âu với châu Á - Thái Bình Dương và hai bờ Đại Tây Dương.\n- Các cảng biển lớn nhất năm 2019 đều nằm ở châu Á: Thượng Hải (Trung Quốc), Xin-ga-po, Ninh Ba - Chu Sơn (Trung Quốc), Thâm Quyến (Trung Quốc), Bu-san (Hàn Quốc).",
+        "metadata": {
+          "type": "map",
+          "title": "Hình 34.6. Bản đồ mạng lưới đường biển và đường hàng không trên thế giới, năm 2019",
+          "chapter": "Chương 12",
+          "lesson": "Bài 34",
+          "pdf_page": 97,
+          "crop_filename": "page_96_map_hangkhong_bien.png"
+        },
+        "score": 0.6732142734154005,
+        "rank": 3,
+        "retriever": "dense",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 211.99430000069697
+  },
+  {
+    "query_id": "b_dev_diag_02",
+    "category": "diagram",
+    "question": "Theo Lược đồ các mảng kiến tạo Hình 6.2 (Trang 23), thạch quyển được cấu tạo bởi 7 mảng kiến tạo lớn nào?",
+    "results": [
+      {
+        "id": "sgk10_p23_map_kientao",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 23,
+        "text": "Hình 6.2. Lược đồ các mảng kiến tạo của Trái Đất (Trang 23):\nThạch quyển được cấu tạo bởi 7 mảng kiến tạo lớn gồm: mảng Thái Bình Dương, mảng Ấn Độ - Ô-xtrây-li-a, mảng Âu - Á, mảng Bắc Mỹ, mảng Nam Mỹ, mảng Phi, mảng Nam Cực. Và một số mảng kiến tạo nhỏ như: mảng Ca-ri-bê, mảng Cô-cốt, mảng Na-dơ-ca, mảng Phi-líp-pin, mảng A-rập. Các mảng kiến tạo không đứng yên mà luôn dịch chuyển trên lớp quánh dẻo của manti trên.",
+        "metadata": {
+          "type": "map",
+          "title": "Lược đồ các mảng kiến tạo của Trái Đất",
+          "chapter": "Chương 3",
+          "lesson": "Bài 6",
+          "pdf_page": 24,
+          "crop_filename": "page_23_map_kientao.png"
+        },
+        "score": 0.8663425428200564,
+        "rank": 1,
+        "retriever": "dense",
+        "hit": true
+      },
+      {
+        "id": "sgk10_p17_diagram_votraidat",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 17,
+        "text": "Sơ đồ cấu tạo vỏ Trái Đất (Trang 17):\n- Tầng trầm tích: Nằm ở trên cùng, do các vật liệu vụn, nhỏ bị nén chặt tạo thành; tầng này không liên tục và có độ dày không đều.\n- Tầng granit: Gồm các loại đá nhẹ (như đá granit và các loại đá có tính chất tương tự) tạo nên; lớp vỏ lục địa được cấu tạo chủ yếu bằng granit.\n- Tầng badan: Gồm các loại đá nặng hơn (như đá badan và các loại đá có tính chất tương tự) tạo nên; lớp vỏ đại dương cấu tạo chủ yếu bằng badan.\nVật liệu cấu tạo nên vỏ Trái Đất là khoáng vật và đá. Đá gồm ba nhóm theo nguồn gốc: đá macma (granit, badan), đá trầm tích (đá vôi, sa thạch) và đá biến chất (đá gơnai, đá hoa, đá phiến).",
+        "metadata": {
+          "type": "diagram",
+          "title": "Sơ đồ cấu tạo vỏ Trái Đất",
+          "chapter": "Chương 2",
+          "lesson": "Bài 4",
+          "pdf_page": 18,
+          "crop_filename": "page_17_diagram_votraidat.png"
+        },
+        "score": 0.6970654154295355,
+        "rank": 2,
+        "retriever": "dense",
+        "hit": false
+      },
+      {
+        "id": "sgk10_p50_diagram_daikhiap",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 50,
+        "text": "Hình 15.1. Sơ đồ các đai khí áp và các đới gió trên Trái Đất (Trang 50):\nKhí áp được phân bố thành các đai xen kẽ nhau từ xích đạo về cực:\n- 1 đai áp thấp xích đạo (0°)\n- 2 đai áp cao cận nhiệt đới (ở khoảng 30° Bắc và 30° Nam)\n- 2 đai áp thấp ôn đới (ở khoảng 60° Bắc và 60° Nam)\n- 2 đai áp cao cực (ở 90° Bắc và 90° Nam)\nCác đới gió chính thổi từ đai áp cao về đai áp thấp:\n- Gió Mậu dịch (gió Tín phong): thổi từ áp cao cận nhiệt đới về áp thấp xích đạo.\n- Gió Tây ôn đới: thổi từ áp cao cận nhiệt đới về áp thấp ôn đới.\n- Gió Đông cực: thổi từ áp cao cực về áp thấp ôn đới.",
+        "metadata": {
+          "type": "diagram",
+          "title": "Hình 15.1. Sơ đồ các đai khí áp và các đới gió trên Trái Đất",
+          "chapter": "Chương 4",
+          "lesson": "Bài 15",
+          "pdf_page": 51,
+          "crop_filename": "page_50_diagram_daikhiap.png"
+        },
+        "score": 0.6647731297810765,
+        "rank": 3,
+        "retriever": "dense",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 256.11230000049545
+  },
+  {
+    "query_id": "b_dev_diag_03",
+    "category": "diagram",
+    "question": "Dựa vào Sơ đồ ở Trang 63, các nguồn lực phát triển kinh tế được phân loại thành ba nhóm chính nào?",
+    "results": [
+      {
+        "id": "sgk10_p63_diagram_nguonluc",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 63,
+        "text": "Sơ đồ Các nguồn lực phát triển kinh tế (Trang 63):\nNguồn lực là tổng thể vị trí địa lí, các nguồn tài nguyên thiên nhiên, hệ thống tài sản quốc gia, nguồn nhân lực, đường lối chính sách, vốn và thị trường... có thể khai thác nhằm phục vụ phát triển kinh tế.\nPhân loại gồm ba nhóm chính:\n1. Vị trí địa lí: Vị trí tự nhiên, vị trí kinh tế, chính trị, giao thông... tạo thuận lợi hoặc khó khăn trong giao lưu, hợp tác.\n2. Nguồn lực tự nhiên: Đất, nước, khí hậu, sinh vật, khoáng sản... là cơ sở tự nhiên của quá trình sản xuất.\n3. Nguồn lực kinh tế - xã hội: Dân số và nguồn lao động, vốn đầu tư, khoa học - công nghệ, thị trường, đường lối chính sách... đóng vai trò quyết định đối với sự phát triển kinh tế.",
+        "metadata": {
+          "type": "diagram",
+          "title": "Sơ đồ Các nguồn lực phát triển kinh tế",
+          "chapter": "Chương 9",
+          "lesson": "Bài 21",
+          "pdf_page": 64,
+          "crop_filename": "page_63_diagram_nguonluc.png"
+        },
+        "score": 0.8525226859812356,
+        "rank": 1,
+        "retriever": "dense",
+        "hit": true
+      },
+      {
+        "id": "sgk10_p65_chart_cocaukinhte",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 65,
+        "text": "Hình 21. Biểu đồ cơ cấu ngành kinh tế của nhóm nước phát triển và đang phát triển năm 2020 (Trang 65):\n- Nhóm nước phát triển: Nông nghiệp, lâm nghiệp, thuỷ sản chiếm 1,5%; Công nghiệp và xây dựng chiếm 24,0%; Dịch vụ chiếm 74,5%.\n- Nhóm nước đang phát triển: Nông nghiệp, lâm nghiệp, thuỷ sản chiếm 10,2%; Công nghiệp và xây dựng chiếm 32,8%; Dịch vụ chiếm 57,0%.\nNhận xét: Nhóm nước phát triển có tỉ trọng ngành dịch vụ vượt trội (74,5%) so với nhóm nước đang phát triển (57,0%), trong khi tỉ trọng nông nghiệp rất thấp (chỉ 1,5%).",
+        "metadata": {
+          "type": "chart",
+          "title": "Hình 21. Biểu đồ cơ cấu ngành kinh tế của nhóm nước phát triển và đang phát triển năm 2020",
+          "chapter": "Chương 9",
+          "lesson": "Bài 21",
+          "pdf_page": 66,
+          "crop_filename": "page_65_chart_cocaukinhte.png"
+        },
+        "score": 0.7519276255261582,
+        "rank": 2,
+        "retriever": "dense",
+        "hit": false
+      },
+      {
+        "id": "sgk10_p111_text_tangtruongxanh",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 111,
+        "text": "Phát triển bền vững và Tăng trưởng xanh (Trang 111):\n- Phát triển bền vững là sự phát triển nhằm đáp ứng những nhu cầu của thế hệ hiện tại mà không làm tổn hại đến khả năng đáp ứng nhu cầu của các thế hệ tương lai trên cơ sở kết hợp chặt chẽ, hài hòa giữa ba trụ cột: tăng trưởng kinh tế, công bằng xã hội và bảo vệ môi trường.\n- Tăng trưởng xanh là phương thức phát triển kinh tế bền vững, nhấn mạnh vào việc thúc đẩy tăng trưởng và phát triển kinh tế, đồng thời bảo tồn các tài sản tự nhiên để tiếp tục cung cấp các tài nguyên và dịch vụ môi trường cho cuộc sống con người. Biểu hiện cụ thể: giảm phát thải khí nhà kính, chuyển dịch sang năng lượng tái tạo (gió, mặt trời), sử dụng tài nguyên hiệu quả và đẩy mạnh kinh tế tuần hoàn.",
+        "metadata": {
+          "type": "text",
+          "title": "Phát triển bền vững và Tăng trưởng xanh",
+          "chapter": "Chương 13",
+          "lesson": "Bài 40",
+          "pdf_page": 112,
+          "crop_filename": "page_111_text_tangtruongxanh.png"
+        },
+        "score": 0.7248002899446451,
+        "rank": 3,
+        "retriever": "dense",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 253.6258000000089
+  },
+  {
+    "query_id": "b_dev_chart_01",
+    "category": "chart",
+    "question": "Dựa vào biểu đồ Hình 19.2 (Trang 59), hãy nêu đặc điểm hình dạng và ý nghĩa của kiểu tháp dân số mở rộng?",
+    "results": [
+      {
+        "id": "sgk10_p59_chart_thapdanso",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 59,
+        "text": "Hình 19.2. Các kiểu tháp dân số cơ bản (Trang 59):\nTháp dân số (tháp tuổi) thể hiện cơ cấu dân số theo tuổi và giới tính. Gồm 3 kiểu cơ bản:\n- Kiểu mở rộng: Đáy tháp rộng, đỉnh tháp nhọn, các cạnh thoải; thể hiện tỉ suất sinh cao, trẻ em nhiều, tuổi thọ trung bình thấp, dân số tăng nhanh (kết cấu dân số trẻ).\n- Kiểu thu hẹp: Đáy tháp hẹp lại, phần giữa phình to; thể hiện tỉ suất sinh có xu hướng giảm nhanh, tỉ lệ trẻ em giảm, tuổi thọ tăng lên (giai đoạn chuyển tiếp sang già hóa).\n- Kiểu ổn định: Đáy tháp và phần thân tháp gần như thẳng đứng, tương đương nhau; thể hiện tỉ suất sinh và tử đều thấp, tuổi thọ trung bình cao, tỉ lệ người già cao (kết cấu dân số già).",
+        "metadata": {
+          "type": "chart",
+          "title": "Hình 19.2. Các kiểu tháp dân số cơ bản",
+          "chapter": "Chương 8",
+          "lesson": "Bài 19",
+          "pdf_page": 60,
+          "crop_filename": "page_59_chart_thapdanso.png"
+        },
+        "score": 0.8274048772379594,
+        "rank": 1,
+        "retriever": "dense",
+        "hit": true
+      },
+      {
+        "id": "sgk10_p61_table20_dothikoa",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 61,
+        "text": "BẢNG 20. TỈ LỆ DÂN THÀNH THỊ CỦA THẾ GIỚI VÀ CÁC NHÓM NƯỚC GIAI ĐOẠN 1950 - 2020 (Đơn vị: %) (Trang 61):\n| Nhóm nước | Năm 1950 | Năm 1970 | Năm 1990 | Năm 2010 | Năm 2020 |\n|---|---|---|---|---|---|\n| Nhóm nước phát triển | 54,9 | 66,7 | 71,2 | 76,5 | 79,1 |\n| Nhóm nước đang phát triển | 17,9 | 24,7 | 34,7 | 46,2 | 51,7 |\n| Toàn thế giới | 29,6 | 36,6 | 43,0 | 51,7 | 56,2 |\nNhận xét: Tỉ lệ dân thành thị toàn thế giới tăng liên tục từ 29,6% năm 1950 lên 56,2% năm 2020. Năm 2020, nhóm nước phát triển có tỉ lệ dân thành thị là 79,1%, cao hơn 27,4% so với nhóm nước đang phát triển (51,7%).",
+        "metadata": {
+          "type": "table",
+          "title": "BẢNG 20. TỈ LỆ DÂN THÀNH THỊ CỦA THẾ GIỚI VÀ CÁC NHÓM NƯỚC GIAI ĐOẠN 1950 - 2020",
+          "chapter": "Chương 8",
+          "lesson": "Bài 20",
+          "pdf_page": 62,
+          "crop_filename": "page_61_table20_dothikoa.png"
+        },
+        "score": 0.718695701548027,
+        "rank": 2,
+        "retriever": "dense",
+        "hit": false
+      },
+      {
+        "id": "sgk10_p54_chart_giatangdanso",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 54,
+        "text": "Hình 18. Biểu đồ tỉ suất sinh thô, tỉ suất tử thô và tỉ suất gia tăng dân số tự nhiên thế giới giai đoạn 1950 - 2020 (Trang 54):\n- Năm 1950: Tỉ suất sinh thô là 36,9‰, tỉ suất tử thô là 19,1‰, tỉ suất gia tăng dân số tự nhiên là 1,78%.\n- Năm 1970: Tỉ suất sinh thô là 33,6‰, tỉ suất tử thô là 12,8‰, tỉ suất gia tăng tự nhiên là 2,08% (đỉnh điểm gia tăng).\n- Năm 2020: Tỉ suất sinh thô giảm còn 18,5‰, tỉ suất tử thô giảm xuống 7,6‰, tỉ suất gia tăng dân số tự nhiên giảm xuống 1,09%.\nNhận xét: Tỉ suất gia tăng dân số tự nhiên của thế giới có xu hướng giảm rõ rệt từ năm 1970 (2,08%) xuống còn 1,09% năm 2020.",
+        "metadata": {
+          "type": "chart",
+          "title": "Hình 18. Biểu đồ tỉ suất sinh thô, tỉ suất tử thô và tỉ suất gia tăng dân số tự nhiên thế giới",
+          "chapter": "Chương 8",
+          "lesson": "Bài 18",
+          "pdf_page": 55,
+          "crop_filename": "page_54_chart_giatangdanso.png"
+        },
+        "score": 0.7144340691153404,
+        "rank": 3,
+        "retriever": "dense",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 226.5839000001506
+  },
+  {
+    "query_id": "b_dev_chart_02",
+    "category": "chart",
+    "question": "Theo biểu đồ khí hậu Hình 10 (Trang 36), trạm Pa-lec-mô (I-ta-li-a) có đặc điểm nhiệt độ và lượng mưa mùa hạ như thế nào?",
+    "results": [
+      {
+        "id": "sgk10_p36_chart_bieudokhihau",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 36,
+        "text": "Hình 10. Biểu đồ nhiệt độ và lượng mưa của một số trạm khí hậu trên Trái Đất (Trang 36):\n- Trạm I-cu-xcơ (Nga - Kiểu khí hậu ôn đới lục địa): Nhiệt độ tháng 7 cao nhất đạt khoảng 19°C, nhiệt độ tháng 1 thấp nhất xuống dưới -20°C (khoảng -21°C). Lượng mưa trung bình năm thấp (410 mm), mưa tập trung chủ yếu vào mùa hạ.\n- Trạm Pa-lec-mô (I-ta-li-a - Kiểu khí hậu cận nhiệt địa trung hải): Nhiệt độ tháng 7-8 cao nhất (25°C), tháng 1 ấm áp (11°C). Lượng mưa năm 650 mm, mùa hạ khô nóng ít mưa, mùa đông mưa nhiều.\n- Trạm Vơ-lanh (I-rơ-lan - Kiểu khí hậu ôn đới hải dương): Mưa quanh năm, lượng mưa 1016 mm, biên độ nhiệt năm nhỏ.",
+        "metadata": {
+          "type": "chart",
+          "title": "Hình 10. Biểu đồ nhiệt độ và lượng mưa của một số trạm khí hậu trên Trái Đất",
+          "chapter": "Chương 4",
+          "lesson": "Bài 10",
+          "pdf_page": 37,
+          "crop_filename": "page_36_chart_bieudokhihau.png"
+        },
+        "score": 0.7648158072934539,
+        "rank": 1,
+        "retriever": "dense",
+        "hit": true
+      },
+      {
+        "id": "sgk10_p30_table9_nhietdo",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 30,
+        "text": "BẢNG 9. NHIỆT ĐỘ TRUNG BÌNH NĂM VÀ BIÊN ĐỘ NHIỆT ĐỘ NĂM THEO VĨ ĐỘ Ở BÁN CẦU BẮC (Trang 30):\n| Vĩ độ | Nhiệt độ trung bình năm (°C) | Biên độ nhiệt độ năm (°C) |\n|---|---|---|\n| 0° (Xích đạo) | 24,5 | 1,8 |\n| 20° | 25,0 | 7,4 |\n| 30° | 20,4 | 13,3 |\n| 40° | 14,0 | 17,7 |\n| 50° | 5,4 | 23,8 |\n| 60° | -0,6 | 29,0 |\n| 70° | -10,4 | 32,2 |\nNhận xét: Càng lên vĩ độ cao, nhiệt độ trung bình năm càng giảm (từ 24,5°C ở xích đạo xuống -10,4°C ở 70°B) và biên độ nhiệt độ năm càng tăng (từ 1,8°C ở xích đạo lên 32,2°C ở 70°B).",
+        "metadata": {
+          "type": "table",
+          "title": "Bảng 9. Nhiệt độ trung bình năm và biên độ nhiệt độ năm theo vĩ độ ở bán cầu Bắc",
+          "chapter": "Chương 4",
+          "lesson": "Bài 9",
+          "pdf_page": 31,
+          "crop_filename": "page_30_table9_nhietdo.png"
+        },
+        "score": 0.6507025175653027,
+        "rank": 2,
+        "retriever": "dense",
+        "hit": false
+      },
+      {
+        "id": "sgk10_p44_chart_songhong",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 44,
+        "text": "Hình 13. Biểu đồ lưu lượng nước trung bình tháng của sông Hồng tại trạm Hà Nội (Trang 44):\nChế độ nước sông Hồng chia làm 2 mùa rõ rệt:\n- Mùa lũ kéo dài 5 tháng (từ tháng 6 đến tháng 10), lưu lượng nước tháng cao nhất là tháng 8 (đạt trên 9.000 m³/s, đỉnh lũ khoảng 9.200 m³/s). Mùa lũ chiếm khoảng 75% tổng lượng nước cả năm.\n- Mùa cạn kéo dài 7 tháng (từ tháng 11 đến tháng 5 năm sau), lưu lượng nước tháng thấp nhất là tháng 3 (xuống dưới 1.000 m³/s, khoảng 950 m³/s).",
+        "metadata": {
+          "type": "chart",
+          "title": "Hình 13. Biểu đồ lưu lượng nước trung bình tháng của sông Hồng tại trạm Hà Nội",
+          "chapter": "Chương 5",
+          "lesson": "Bài 13",
+          "pdf_page": 45,
+          "crop_filename": "page_44_chart_songhong.png"
+        },
+        "score": 0.6278077131997379,
+        "rank": 3,
+        "retriever": "dense",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 233.7147999996887
+  },
+  {
+    "query_id": "b_dev_chart_03",
+    "category": "chart",
+    "question": "Dựa vào biểu đồ Hình 29.2 (Trang 84), ba nguồn năng lượng chiếm tỉ trọng lớn nhất trong cơ cấu sử dụng năng lượng thế giới năm 2019 là gì?",
+    "results": [
+      {
+        "id": "sgk10_p84_chart_nangluong",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 84,
+        "text": "Hình 29.2. Biểu đồ cơ cấu sử dụng năng lượng thế giới năm 2019 (Trang 84):\nCơ cấu sử dụng năng lượng toàn cầu năm 2019 (Đơn vị: %):\n- Dầu mỏ chiếm tỉ trọng lớn nhất: 33,1%\n- Than đá chiếm vị trí thứ hai: 27,0%\n- Khí tự nhiên chiếm: 24,2%\n- Thủy điện chiếm: 6,4%\n- Năng lượng tái tạo (gió, mặt trời, sinh khối): 5,0%\n- Năng lượng hạt nhân chiếm: 4,3%\nNhận xét: Năng lượng hóa thạch (dầu mỏ, than đá, khí tự nhiên) vẫn chiếm tỉ trọng áp đảo lên tới 84,3% tổng năng lượng tiêu thụ toàn cầu năm 2019.",
+        "metadata": {
+          "type": "chart",
+          "title": "Hình 29.2. Biểu đồ cơ cấu sử dụng năng lượng thế giới năm 2019",
+          "chapter": "Chương 11",
+          "lesson": "Bài 29",
+          "pdf_page": 85,
+          "crop_filename": "page_84_chart_nangluong.png"
+        },
+        "score": 0.8600311270336569,
+        "rank": 1,
+        "retriever": "dense",
+        "hit": true
+      },
+      {
+        "id": "sgk10_p82_table29_nangluong",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 82,
+        "text": "BẢNG 29.1. SẢN LƯỢNG THAN, DẦU MỎ VÀ ĐIỆN CỦA THẾ GIỚI GIAI ĐOẠN 2000 - 2019 (Trang 82):\n| Năm | Than (triệu tấn) | Dầu mỏ (triệu tấn) | Điện (tỉ kWh) |\n|---|---|---|---|\n| 2000 | 4.757 | 3.606 | 15.500 |\n| 2005 | 6.035 | 3.921 | 18.300 |\n| 2010 | 7.429 | 4.028 | 21.500 |\n| 2015 | 7.915 | 4.362 | 24.300 |\n| 2019 | 8.049 | 4.478 | 27.000 |\nNhận xét: Sản lượng điện tăng nhanh nhất (tăng 1,74 lần từ 15.500 tỉ kWh lên 27.000 tỉ kWh). Sản lượng than tăng từ 4.757 lên 8.049 triệu tấn. Sản lượng dầu mỏ tăng từ 3.606 lên 4.478 triệu tấn. Các nước có sản lượng than lớn nhất là Trung Quốc, Ấn Độ, Hoa Kỳ; dầu mỏ lớn nhất là Hoa Kỳ, Nga, A-rập Xê-út.",
+        "metadata": {
+          "type": "table",
+          "title": "BẢNG 29.1. SẢN LƯỢNG THAN, DẦU MỎ VÀ ĐIỆN CỦA THẾ GIỚI GIAI ĐOẠN 2000 - 2019",
+          "chapter": "Chương 11",
+          "lesson": "Bài 29",
+          "pdf_page": 83,
+          "crop_filename": "page_82_table29_nangluong.png"
+        },
+        "score": 0.7842780148423942,
+        "rank": 2,
+        "retriever": "dense",
+        "hit": false
+      },
+      {
+        "id": "sgk10_p96_map_hangkhong_bien",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 96,
+        "text": "Hình 34.6. Bản đồ mạng lưới đường biển và đường hàng không trên thế giới, năm 2019 (Trang 96-97):\n1. Tình hình phát triển và phân bố ngành hàng không:\n- Năm 2019, ngành hàng không thế giới vận chuyển được hơn 4,4 tỉ lượt hành khách.\n- Các tuyến bay sôi động nhất: Tuyến xuyên Đại Tây Dương nối châu Âu với châu Mỹ và các tuyến nối Hoa Kỳ với châu Á - Thái Bình Dương.\n- Bốn sân bay quốc tế vận chuyển hành khách lớn nhất năm 2019 gồm: Át-lan-ta (Hoa Kỳ), Bắc Kinh (Trung Quốc), Lốt An-giơ-lét (Hoa Kỳ), Đu-bai (Các Tiểu vương quốc A-rập Thống nhất).\n2. Đường biển:\n- Tuyến đường biển sôi động nhất kết nối châu Âu với châu Á - Thái Bình Dương và hai bờ Đại Tây Dương.\n- Các cảng biển lớn nhất năm 2019 đều nằm ở châu Á: Thượng Hải (Trung Quốc), Xin-ga-po, Ninh Ba - Chu Sơn (Trung Quốc), Thâm Quyến (Trung Quốc), Bu-san (Hàn Quốc).",
+        "metadata": {
+          "type": "map",
+          "title": "Hình 34.6. Bản đồ mạng lưới đường biển và đường hàng không trên thế giới, năm 2019",
+          "chapter": "Chương 12",
+          "lesson": "Bài 34",
+          "pdf_page": 97,
+          "crop_filename": "page_96_map_hangkhong_bien.png"
+        },
+        "score": 0.7009942138956909,
+        "rank": 3,
+        "retriever": "dense",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 235.12560000017402
+  },
+  {
+    "query_id": "b_dev_multi_01",
+    "category": "multihop",
+    "question": "Kết hợp Bảng 36 (Trang 102) và Bảng 37 (Trang 104), doanh thu du lịch quốc tế và tổng trị giá xuất nhập khẩu thế giới năm 2019 đạt bao nhiêu tỉ USD?",
+    "results": [
+      {
+        "id": "sgk10_p102_table36_dulich",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 102,
+        "text": "BẢNG 36. SỐ LƯỢT KHÁCH DU LỊCH QUỐC TẾ VÀ DOANH THU DU LỊCH QUỐC TẾ TRÊN THẾ GIỚI GIAI ĐOẠN 2000 - 2019 (Trang 102):\n| Năm | Khách du lịch quốc tế (triệu lượt người) | Doanh thu du lịch quốc tế (tỉ USD) |\n|---|---|---|\n| 2000 | 682 | 475 |\n| 2005 | 809 | 679 |\n| 2010 | 953 | 927 |\n| 2015 | 1.189 | 1.196 |\n| 2019 | 1.460 | 1.482 |\nNhận xét: Số lượt khách du lịch quốc tế tăng từ 682 triệu lượt lên 1.460 triệu lượt (tăng 2,14 lần). Doanh thu du lịch quốc tế tăng từ 475 tỉ USD lên 1.482 tỉ USD (tăng 3,12 lần). Châu Âu là khu vực đón lượng khách du lịch và có doanh thu du lịch cao nhất thế giới.",
+        "metadata": {
+          "type": "table",
+          "title": "BẢNG 36. SỐ LƯỢT KHÁCH DU LỊCH QUỐC TẾ VÀ DOANH THU DU LỊCH QUỐC TẾ TRÊN THẾ GIỚI",
+          "chapter": "Chương 12",
+          "lesson": "Bài 36",
+          "pdf_page": 103,
+          "crop_filename": "page_102_table36_dulich.png"
+        },
+        "score": 0.8301395375119132,
+        "rank": 1,
+        "retriever": "dense",
+        "hit": true
+      },
+      {
+        "id": "sgk10_p104_table37_thuongmai",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 104,
+        "text": "BẢNG 37. TRỊ GIÁ XUẤT KHẨU VÀ NHẬP KHẨU HÀNG HÓA CỦA THẾ GIỚI GIAI ĐOẠN 2000 - 2019 (Đơn vị: tỉ USD) (Trang 104):\n| Năm | Xuất khẩu | Nhập khẩu | Tổng trị giá XNK |\n|---|---|---|---|\n| 2000 | 6.456 | 6.724 | 13.180 |\n| 2005 | 10.509 | 10.826 | 21.335 |\n| 2010 | 15.301 | 15.485 | 30.786 |\n| 2015 | 16.558 | 16.734 | 33.292 |\n| 2019 | 19.015 | 19.243 | 38.258 |\nNhận xét: Tổng trị giá xuất nhập khẩu hàng hóa thế giới tăng từ 13.180 tỉ USD (2000) lên 38.258 tỉ USD (2019), tăng gần gấp 3 lần (2,9 lần). Trong đó, năm 2019 xuất khẩu đạt 19.015 tỉ USD và nhập khẩu đạt 19.243 tỉ USD. Các nước đứng đầu về thương mại là Trung Quốc, Hoa Kỳ, Đức, Nhật Bản.",
+        "metadata": {
+          "type": "table",
+          "title": "BẢNG 37. TRỊ GIÁ XUẤT KHẨU VÀ NHẬP KHẨU HÀNG HÓA CỦA THẾ GIỚI GIAI ĐOẠN 2000 - 2019",
+          "chapter": "Chương 12",
+          "lesson": "Bài 37",
+          "pdf_page": 105,
+          "crop_filename": "page_104_table37_thuongmai.png"
+        },
+        "score": 0.7910082568440444,
+        "rank": 2,
+        "retriever": "dense",
+        "hit": false
+      },
+      {
+        "id": "sgk10_p96_map_hangkhong_bien",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 96,
+        "text": "Hình 34.6. Bản đồ mạng lưới đường biển và đường hàng không trên thế giới, năm 2019 (Trang 96-97):\n1. Tình hình phát triển và phân bố ngành hàng không:\n- Năm 2019, ngành hàng không thế giới vận chuyển được hơn 4,4 tỉ lượt hành khách.\n- Các tuyến bay sôi động nhất: Tuyến xuyên Đại Tây Dương nối châu Âu với châu Mỹ và các tuyến nối Hoa Kỳ với châu Á - Thái Bình Dương.\n- Bốn sân bay quốc tế vận chuyển hành khách lớn nhất năm 2019 gồm: Át-lan-ta (Hoa Kỳ), Bắc Kinh (Trung Quốc), Lốt An-giơ-lét (Hoa Kỳ), Đu-bai (Các Tiểu vương quốc A-rập Thống nhất).\n2. Đường biển:\n- Tuyến đường biển sôi động nhất kết nối châu Âu với châu Á - Thái Bình Dương và hai bờ Đại Tây Dương.\n- Các cảng biển lớn nhất năm 2019 đều nằm ở châu Á: Thượng Hải (Trung Quốc), Xin-ga-po, Ninh Ba - Chu Sơn (Trung Quốc), Thâm Quyến (Trung Quốc), Bu-san (Hàn Quốc).",
+        "metadata": {
+          "type": "map",
+          "title": "Hình 34.6. Bản đồ mạng lưới đường biển và đường hàng không trên thế giới, năm 2019",
+          "chapter": "Chương 12",
+          "lesson": "Bài 34",
+          "pdf_page": 97,
+          "crop_filename": "page_96_map_hangkhong_bien.png"
+        },
+        "score": 0.7154476279151271,
+        "rank": 3,
+        "retriever": "dense",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 171.7849999995451
+  },
+  {
+    "query_id": "b_dev_multi_02",
+    "category": "multihop",
+    "question": "Kết hợp Sơ đồ tư duy ở Trang 98 và Bảng 33 (Trang 92), ngành bưu chính viễn thông có sản phẩm là gì và thuộc nhóm ngành kinh tế có tỉ trọng GDP thế nào năm 2019?",
+    "results": [
+      {
+        "id": "sgk10_p98_diagram_buuchinh",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 98,
+        "text": "SƠ ĐỒ TƯ DUY: VAI TRÒ CỦA BƯU CHÍNH VIỄN THÔNG (Trang 98):\n1. Với phát triển kinh tế (3 vai trò chính):\n- Cung ứng và truyền tải thông tin, vận chuyển bưu phẩm, bưu kiện góp phần tăng năng suất lao động.\n- Hiện đại hoá, thay đổi cách thức tổ chức nền kinh tế, thúc đẩy kinh tế phát triển.\n- Bản thân bưu chính viễn thông cũng là ngành dịch vụ mang lại giá trị kinh tế cao.\n2. Với các lĩnh vực khác (3 vai trò chính):\n- Đảm bảo giao lưu giữa các vùng, thúc đẩy quá trình hội nhập và toàn cầu hoá.\n- Tạo thuận lợi cho quản lí hành chính.\n- Nâng cao đời sống văn hoá, tinh thần trong xã hội.\n\nĐặc điểm ngành bưu chính viễn thông (mục b, Trang 98):\n- Gồm hai nhóm: bưu chính (vận chuyển thư, bưu phẩm, bưu kiện, hàng hoá,...) và viễn thông (dịch vụ gửi, truyền, nhận và xử lí thông tin giữa các đối tượng sử dụng).\n- Sản phẩm của bưu chính viễn thông là sự vận chuyển tin tức, bưu kiện, bưu phẩm, truyền dẫn thông tin điện tử,... từ nơi gửi đến nơi nhận.",
+        "metadata": {
+          "type": "diagram",
+          "title": "SƠ ĐỒ TƯ DUY: VAI TRÒ CỦA BƯU CHÍNH VIỄN THÔNG VÀ ĐẶC ĐIỂM",
+          "chapter": "Chương 12",
+          "lesson": "Bài 35",
+          "pdf_page": 99,
+          "crop_filename": "page_98_diagram_buuchinh.png"
+        },
+        "score": 0.8119088895792523,
+        "rank": 1,
+        "retriever": "dense",
+        "hit": true
+      },
+      {
+        "id": "sgk10_p92_table33_gdp",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 92,
+        "text": "BẢNG 33. CƠ CẤU GDP THẾ GIỚI THEO NGÀNH KINH TẾ, NĂM 2000 VÀ NĂM 2019 (*) (Đơn vị: %) (Trang 92):\n| Năm | Nông nghiệp, lâm nghiệp và thuỷ sản | Công nghiệp và xây dựng | Dịch vụ |\n|---|---|---|---|\n| 2000 | 5,2 | 30,7 | 64,1 |\n| 2019 | 4,2 | 27,9 | 67,9 |\n(*) Không tính thuế sản phẩm trừ trợ cấp sản phẩm.\n\nNhận xét sự thay đổi tỉ trọng ngành dịch vụ:\n- Tỉ trọng ngành Dịch vụ chiếm vị trí áp đảo và tăng từ 64,1% (năm 2000) lên 67,9% (năm 2019), tăng thêm 3,8%.\n- Tỉ trọng Nông nghiệp, lâm nghiệp và thuỷ sản giảm từ 5,2% xuống 4,2% (giảm 1,0%).\n- Tỉ trọng Công nghiệp và xây dựng giảm mạnh nhất: từ 30,7% xuống 27,9% (giảm 2,8%).\nCâu hỏi ôn tập liên quan: Giao thông vận tải, tư vấn pháp lí, công chứng thuộc nhóm dịch vụ kinh doanh; bảo tàng, tư vấn sức khỏe, giáo dục thuộc nhóm dịch vụ tiêu dùng.",
+        "metadata": {
+          "type": "table",
+          "title": "BẢNG 33. CƠ CẤU GDP THẾ GIỚI THEO NGÀNH KINH TẾ, NĂM 2000 VÀ NĂM 2019 (*)",
+          "chapter": "Chương 12",
+          "lesson": "Bài 33",
+          "pdf_page": 93,
+          "crop_filename": "page_92_table33_gdp.png"
+        },
+        "score": 0.7238973560701846,
+        "rank": 2,
+        "retriever": "dense",
+        "hit": false
+      },
+      {
+        "id": "sgk10_p91_diagram_dichvu",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 91,
+        "text": "Cơ cấu ngành dịch vụ (Trang 91):\nKhu vực dịch vụ có cơ cấu ngành hết sức đa dạng và phức tạp. Người ta thường chia dịch vụ thành 3 nhóm ngành chính:\n1. Dịch vụ kinh doanh: Bao gồm tài chính, ngân hàng, bảo hiểm, vận tải hàng hóa, bán buôn, bán lẻ, tư vấn pháp lí...\n2. Dịch vụ tiêu dùng: Bao gồm y tế, giáo dục, thể dục thể thao, du lịch, khách sạn, nhà hàng, dịch vụ cá nhân và cộng đồng...\n3. Dịch vụ công: Bao gồm hành chính công, thủ tục hành chính, dịch vụ an ninh, quốc phòng và các hoạt động đoàn thể.",
+        "metadata": {
+          "type": "diagram",
+          "title": "Sơ đồ cơ cấu ngành dịch vụ",
+          "chapter": "Chương 12",
+          "lesson": "Bài 33",
+          "pdf_page": 92,
+          "crop_filename": "page_91_diagram_dichvu.png"
+        },
+        "score": 0.691468444798989,
+        "rank": 3,
+        "retriever": "dense",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 182.71009999989474
+  },
+  {
+    "query_id": "b_dev_multi_03",
+    "category": "multihop",
+    "question": "Kết hợp Bảng 29.1 (Trang 82) và Hình 29.2 (Trang 84), sản lượng than thế giới năm 2019 đạt bao nhiêu triệu tấn và than đá chiếm bao nhiêu phần trăm trong cơ cấu năng lượng?",
+    "results": [
+      {
+        "id": "sgk10_p84_chart_nangluong",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 84,
+        "text": "Hình 29.2. Biểu đồ cơ cấu sử dụng năng lượng thế giới năm 2019 (Trang 84):\nCơ cấu sử dụng năng lượng toàn cầu năm 2019 (Đơn vị: %):\n- Dầu mỏ chiếm tỉ trọng lớn nhất: 33,1%\n- Than đá chiếm vị trí thứ hai: 27,0%\n- Khí tự nhiên chiếm: 24,2%\n- Thủy điện chiếm: 6,4%\n- Năng lượng tái tạo (gió, mặt trời, sinh khối): 5,0%\n- Năng lượng hạt nhân chiếm: 4,3%\nNhận xét: Năng lượng hóa thạch (dầu mỏ, than đá, khí tự nhiên) vẫn chiếm tỉ trọng áp đảo lên tới 84,3% tổng năng lượng tiêu thụ toàn cầu năm 2019.",
+        "metadata": {
+          "type": "chart",
+          "title": "Hình 29.2. Biểu đồ cơ cấu sử dụng năng lượng thế giới năm 2019",
+          "chapter": "Chương 11",
+          "lesson": "Bài 29",
+          "pdf_page": 85,
+          "crop_filename": "page_84_chart_nangluong.png"
+        },
+        "score": 0.8163260179700533,
+        "rank": 1,
+        "retriever": "dense",
+        "hit": false
+      },
+      {
+        "id": "sgk10_p82_table29_nangluong",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 82,
+        "text": "BẢNG 29.1. SẢN LƯỢNG THAN, DẦU MỎ VÀ ĐIỆN CỦA THẾ GIỚI GIAI ĐOẠN 2000 - 2019 (Trang 82):\n| Năm | Than (triệu tấn) | Dầu mỏ (triệu tấn) | Điện (tỉ kWh) |\n|---|---|---|---|\n| 2000 | 4.757 | 3.606 | 15.500 |\n| 2005 | 6.035 | 3.921 | 18.300 |\n| 2010 | 7.429 | 4.028 | 21.500 |\n| 2015 | 7.915 | 4.362 | 24.300 |\n| 2019 | 8.049 | 4.478 | 27.000 |\nNhận xét: Sản lượng điện tăng nhanh nhất (tăng 1,74 lần từ 15.500 tỉ kWh lên 27.000 tỉ kWh). Sản lượng than tăng từ 4.757 lên 8.049 triệu tấn. Sản lượng dầu mỏ tăng từ 3.606 lên 4.478 triệu tấn. Các nước có sản lượng than lớn nhất là Trung Quốc, Ấn Độ, Hoa Kỳ; dầu mỏ lớn nhất là Hoa Kỳ, Nga, A-rập Xê-út.",
+        "metadata": {
+          "type": "table",
+          "title": "BẢNG 29.1. SẢN LƯỢNG THAN, DẦU MỎ VÀ ĐIỆN CỦA THẾ GIỚI GIAI ĐOẠN 2000 - 2019",
+          "chapter": "Chương 11",
+          "lesson": "Bài 29",
+          "pdf_page": 83,
+          "crop_filename": "page_82_table29_nangluong.png"
+        },
+        "score": 0.7992777353613605,
+        "rank": 2,
+        "retriever": "dense",
+        "hit": true
+      },
+      {
+        "id": "sgk10_p70_table24_1_luagao",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 70,
+        "text": "BẢNG 24.1. SẢN LƯỢNG LÚA GẠO VÀ LÚA MÌ CỦA THẾ GIỚI GIAI ĐOẠN 2000 - 2019 (Đơn vị: triệu tấn) (Trang 70):\n| Cây lương thực | Năm 2000 | Năm 2005 | Năm 2010 | Năm 2015 | Năm 2019 |\n|---|---|---|---|---|---|\n| Lúa gạo | 599,4 | 634,2 | 701,1 | 741,4 | 755,5 |\n| Lúa mì | 585,8 | 626,9 | 653,7 | 741,7 | 765,8 |\nNhận xét: Cả sản lượng lúa gạo và lúa mì đều tăng liên tục từ năm 2000 đến 2019. Năm 2019, sản lượng lúa mì (765,8 triệu tấn) vượt qua sản lượng lúa gạo (755,5 triệu tấn) với mức chênh lệch 10,3 triệu tấn. Lúa gạo phân bố chủ yếu ở khu vực nhiệt đới gió mùa (châu Á), lúa mì phân bố chủ yếu ở vùng ôn đới.",
+        "metadata": {
+          "type": "table",
+          "title": "BẢNG 24.1. SẢN LƯỢNG LÚA GẠO VÀ LÚA MÌ CỦA THẾ GIỚI GIAI ĐOẠN 2000 - 2019",
+          "chapter": "Chương 10",
+          "lesson": "Bài 24",
+          "pdf_page": 71,
+          "crop_filename": "page_70_table24_1_luagao.png"
+        },
+        "score": 0.7064948421339363,
+        "rank": 3,
+        "retriever": "dense",
+        "hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "elapsed_ms": 242.41359999996348
+  },
+  {
+    "query_id": "b_dev_text_01",
+    "category": "text",
+    "question": "Theo nội dung bài 15 ở Trang 51, nguyên nhân chủ yếu tạo nên quy luật địa đới trên Trái Đất là gì?",
+    "results": [
+      {
+        "id": "sgk10_p51_text_quyluatdiadoi",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 51,
+        "text": "Quy luật địa đới và Quy luật phi địa đới (Trang 51):\n1. Quy luật địa đới:\n- Là sự thay đổi có quy luật của tất cả các thành phần địa lí và cảnh quan địa lí theo vĩ độ (từ xích đạo về hai cực).\n- Nguyên nhân: Do dạng hình cầu của Trái Đất và góc chiếu của bức xạ mặt trời giảm dần từ xích đạo về hai cực, làm cho lượng bức xạ mặt trời phân bố không đều.\n- Biểu hiện: Các vòng đai nhiệt, các đai khí áp và đới gió, các đới khí hậu, các nhóm đất và thảm thực vật chính trên Trái Đất.\n2. Quy luật phi địa đới:\n- Là quy luật phân bố không phụ thuộc vào bức xạ mặt trời, gồm quy luật đai cao (thay đổi theo độ cao) và quy luật địa ô (thay đổi theo kinh độ từ bờ biển vào nội địa).",
+        "metadata": {
+          "type": "text",
+          "title": "Quy luật địa đới và Quy luật phi địa đới",
+          "chapter": "Chương 4",
+          "lesson": "Bài 15",
+          "pdf_page": 52,
+          "crop_filename": "page_51_text_quyluatdiadoi.png"
+        },
+        "score": 0.8140314532574165,
+        "rank": 1,
+        "retriever": "dense",
+        "hit": true
+      },
+      {
+        "id": "sgk10_p50_diagram_daikhiap",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 50,
+        "text": "Hình 15.1. Sơ đồ các đai khí áp và các đới gió trên Trái Đất (Trang 50):\nKhí áp được phân bố thành các đai xen kẽ nhau từ xích đạo về cực:\n- 1 đai áp thấp xích đạo (0°)\n- 2 đai áp cao cận nhiệt đới (ở khoảng 30° Bắc và 30° Nam)\n- 2 đai áp thấp ôn đới (ở khoảng 60° Bắc và 60° Nam)\n- 2 đai áp cao cực (ở 90° Bắc và 90° Nam)\nCác đới gió chính thổi từ đai áp cao về đai áp thấp:\n- Gió Mậu dịch (gió Tín phong): thổi từ áp cao cận nhiệt đới về áp thấp xích đạo.\n- Gió Tây ôn đới: thổi từ áp cao cận nhiệt đới về áp thấp ôn đới.\n- Gió Đông cực: thổi từ áp cao cực về áp thấp ôn đới.",
+        "metadata": {
+          "type": "diagram",
+          "title": "Hình 15.1. Sơ đồ các đai khí áp và các đới gió trên Trái Đất",
+          "chapter": "Chương 4",
+          "lesson": "Bài 15",
+          "pdf_page": 51,
+          "crop_filename": "page_50_diagram_daikhiap.png"
+        },
+        "score": 0.7061913266012467,
+        "rank": 2,
+        "retriever": "dense",
+        "hit": false
+      },
+      {
+        "id": "sgk10_p19_map_gio",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 19,
+        "text": "Hình 5.2. Bản đồ giờ trên Trái Đất (Trang 19):\nNgười ta quy định lấy kinh tuyến 180 độ đi qua giữa múi giờ số 12 ở Thái Bình Dương làm đường chuyển ngày quốc tế. Nếu đi từ tây sang đông qua kinh tuyến 180 độ thì lùi lại một ngày lịch; nếu đi từ đông sang tây qua kinh tuyến 180 độ thì tăng thêm một ngày lịch. Bề mặt Trái Đất được chia làm 24 múi giờ, mỗi múi rộng 15 độ kinh tuyến. Giờ múi số 0 (giờ quốc tế GMT/UTC) đi qua đài thiên văn Grin-uých ở Luân Đôn (Vương quốc Anh).",
+        "metadata": {
+          "type": "map",
+          "title": "Bản đồ giờ trên Trái Đất và Đường chuyển ngày quốc tế",
+          "chapter": "Chương 2",
+          "lesson": "Bài 5",
+          "pdf_page": 20,
+          "crop_filename": "page_19_map_gio.png"
+        },
+        "score": 0.6937165562022203,
+        "rank": 3,
+        "retriever": "dense",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 277.03029999975115
+  },
+  {
+    "query_id": "b_dev_text_02",
+    "category": "text",
+    "question": "Theo mục b Trang 98, ngành bưu chính viễn thông bao gồm những nhóm nào và sản phẩm của ngành là gì?",
+    "results": [
+      {
+        "id": "sgk10_p98_diagram_buuchinh",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 98,
+        "text": "SƠ ĐỒ TƯ DUY: VAI TRÒ CỦA BƯU CHÍNH VIỄN THÔNG (Trang 98):\n1. Với phát triển kinh tế (3 vai trò chính):\n- Cung ứng và truyền tải thông tin, vận chuyển bưu phẩm, bưu kiện góp phần tăng năng suất lao động.\n- Hiện đại hoá, thay đổi cách thức tổ chức nền kinh tế, thúc đẩy kinh tế phát triển.\n- Bản thân bưu chính viễn thông cũng là ngành dịch vụ mang lại giá trị kinh tế cao.\n2. Với các lĩnh vực khác (3 vai trò chính):\n- Đảm bảo giao lưu giữa các vùng, thúc đẩy quá trình hội nhập và toàn cầu hoá.\n- Tạo thuận lợi cho quản lí hành chính.\n- Nâng cao đời sống văn hoá, tinh thần trong xã hội.\n\nĐặc điểm ngành bưu chính viễn thông (mục b, Trang 98):\n- Gồm hai nhóm: bưu chính (vận chuyển thư, bưu phẩm, bưu kiện, hàng hoá,...) và viễn thông (dịch vụ gửi, truyền, nhận và xử lí thông tin giữa các đối tượng sử dụng).\n- Sản phẩm của bưu chính viễn thông là sự vận chuyển tin tức, bưu kiện, bưu phẩm, truyền dẫn thông tin điện tử,... từ nơi gửi đến nơi nhận.",
+        "metadata": {
+          "type": "diagram",
+          "title": "SƠ ĐỒ TƯ DUY: VAI TRÒ CỦA BƯU CHÍNH VIỄN THÔNG VÀ ĐẶC ĐIỂM",
+          "chapter": "Chương 12",
+          "lesson": "Bài 35",
+          "pdf_page": 99,
+          "crop_filename": "page_98_diagram_buuchinh.png"
+        },
+        "score": 0.8387708651220706,
+        "rank": 1,
+        "retriever": "dense",
+        "hit": true
+      },
+      {
+        "id": "sgk10_p91_diagram_dichvu",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 91,
+        "text": "Cơ cấu ngành dịch vụ (Trang 91):\nKhu vực dịch vụ có cơ cấu ngành hết sức đa dạng và phức tạp. Người ta thường chia dịch vụ thành 3 nhóm ngành chính:\n1. Dịch vụ kinh doanh: Bao gồm tài chính, ngân hàng, bảo hiểm, vận tải hàng hóa, bán buôn, bán lẻ, tư vấn pháp lí...\n2. Dịch vụ tiêu dùng: Bao gồm y tế, giáo dục, thể dục thể thao, du lịch, khách sạn, nhà hàng, dịch vụ cá nhân và cộng đồng...\n3. Dịch vụ công: Bao gồm hành chính công, thủ tục hành chính, dịch vụ an ninh, quốc phòng và các hoạt động đoàn thể.",
+        "metadata": {
+          "type": "diagram",
+          "title": "Sơ đồ cơ cấu ngành dịch vụ",
+          "chapter": "Chương 12",
+          "lesson": "Bài 33",
+          "pdf_page": 92,
+          "crop_filename": "page_91_diagram_dichvu.png"
+        },
+        "score": 0.7086038644224797,
+        "rank": 2,
+        "retriever": "dense",
+        "hit": false
+      },
+      {
+        "id": "sgk10_p92_table33_gdp",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 92,
+        "text": "BẢNG 33. CƠ CẤU GDP THẾ GIỚI THEO NGÀNH KINH TẾ, NĂM 2000 VÀ NĂM 2019 (*) (Đơn vị: %) (Trang 92):\n| Năm | Nông nghiệp, lâm nghiệp và thuỷ sản | Công nghiệp và xây dựng | Dịch vụ |\n|---|---|---|---|\n| 2000 | 5,2 | 30,7 | 64,1 |\n| 2019 | 4,2 | 27,9 | 67,9 |\n(*) Không tính thuế sản phẩm trừ trợ cấp sản phẩm.\n\nNhận xét sự thay đổi tỉ trọng ngành dịch vụ:\n- Tỉ trọng ngành Dịch vụ chiếm vị trí áp đảo và tăng từ 64,1% (năm 2000) lên 67,9% (năm 2019), tăng thêm 3,8%.\n- Tỉ trọng Nông nghiệp, lâm nghiệp và thuỷ sản giảm từ 5,2% xuống 4,2% (giảm 1,0%).\n- Tỉ trọng Công nghiệp và xây dựng giảm mạnh nhất: từ 30,7% xuống 27,9% (giảm 2,8%).\nCâu hỏi ôn tập liên quan: Giao thông vận tải, tư vấn pháp lí, công chứng thuộc nhóm dịch vụ kinh doanh; bảo tàng, tư vấn sức khỏe, giáo dục thuộc nhóm dịch vụ tiêu dùng.",
+        "metadata": {
+          "type": "table",
+          "title": "BẢNG 33. CƠ CẤU GDP THẾ GIỚI THEO NGÀNH KINH TẾ, NĂM 2000 VÀ NĂM 2019 (*)",
+          "chapter": "Chương 12",
+          "lesson": "Bài 33",
+          "pdf_page": 93,
+          "crop_filename": "page_92_table33_gdp.png"
+        },
+        "score": 0.6481074177741599,
+        "rank": 3,
+        "retriever": "dense",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 278.4926999993331
+  },
+  {
+    "query_id": "b_dev_text_03",
+    "category": "text",
+    "question": "Theo bài 39 ở Trang 108, hãy nêu 4 vai trò của môi trường sống đối với con người?",
+    "results": [
+      {
+        "id": "sgk10_p108_diagram_moitruong",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 108,
+        "text": "Môi trường và Tài nguyên thiên nhiên (Trang 108):\n- Môi trường sống của con người là tổng thể các điều kiện tự nhiên và nhân tạo bao quanh con người, có ảnh hưởng tới đời sống và sự phát triển của xã hội loài người. Gồm: môi trường tự nhiên, môi trường xã hội và môi trường nhân tạo.\n- Vai trò của môi trường: là không gian sống của con người; là nguồn cung cấp tài nguyên thiên nhiên; là nơi chứa đựng và đồng hóa các chất thải; là nơi lưu trữ và cung cấp thông tin.\n- Tài nguyên thiên nhiên phân loại theo thuộc tính tự nhiên (tài nguyên đất, nước, khí hậu, sinh vật, khoáng sản) hoặc theo công dụng kinh tế (tài nguyên nông nghiệp, công nghiệp, du lịch) và theo khả năng có thể bị hao kiệt (tài nguyên có thể phục hồi, không thể phục hồi, vô tận).",
+        "metadata": {
+          "type": "diagram",
+          "title": "Môi trường sống và Tài nguyên thiên nhiên",
+          "chapter": "Chương 13",
+          "lesson": "Bài 39",
+          "pdf_page": 109,
+          "crop_filename": "page_108_diagram_moitruong.png"
+        },
+        "score": 0.7704187353151092,
+        "rank": 1,
+        "retriever": "dense",
+        "hit": true
+      },
+      {
+        "id": "sgk10_p98_diagram_buuchinh",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 98,
+        "text": "SƠ ĐỒ TƯ DUY: VAI TRÒ CỦA BƯU CHÍNH VIỄN THÔNG (Trang 98):\n1. Với phát triển kinh tế (3 vai trò chính):\n- Cung ứng và truyền tải thông tin, vận chuyển bưu phẩm, bưu kiện góp phần tăng năng suất lao động.\n- Hiện đại hoá, thay đổi cách thức tổ chức nền kinh tế, thúc đẩy kinh tế phát triển.\n- Bản thân bưu chính viễn thông cũng là ngành dịch vụ mang lại giá trị kinh tế cao.\n2. Với các lĩnh vực khác (3 vai trò chính):\n- Đảm bảo giao lưu giữa các vùng, thúc đẩy quá trình hội nhập và toàn cầu hoá.\n- Tạo thuận lợi cho quản lí hành chính.\n- Nâng cao đời sống văn hoá, tinh thần trong xã hội.\n\nĐặc điểm ngành bưu chính viễn thông (mục b, Trang 98):\n- Gồm hai nhóm: bưu chính (vận chuyển thư, bưu phẩm, bưu kiện, hàng hoá,...) và viễn thông (dịch vụ gửi, truyền, nhận và xử lí thông tin giữa các đối tượng sử dụng).\n- Sản phẩm của bưu chính viễn thông là sự vận chuyển tin tức, bưu kiện, bưu phẩm, truyền dẫn thông tin điện tử,... từ nơi gửi đến nơi nhận.",
+        "metadata": {
+          "type": "diagram",
+          "title": "SƠ ĐỒ TƯ DUY: VAI TRÒ CỦA BƯU CHÍNH VIỄN THÔNG VÀ ĐẶC ĐIỂM",
+          "chapter": "Chương 12",
+          "lesson": "Bài 35",
+          "pdf_page": 99,
+          "crop_filename": "page_98_diagram_buuchinh.png"
+        },
+        "score": 0.6634129305662222,
+        "rank": 2,
+        "retriever": "dense",
+        "hit": false
+      },
+      {
+        "id": "sgk10_p111_text_tangtruongxanh",
+        "source_id": "sgk-dia-li-10-kntt",
+        "source": "assets/sgk-dia-li-10-kntt-17627059007551086575955.pdf",
+        "page": 111,
+        "text": "Phát triển bền vững và Tăng trưởng xanh (Trang 111):\n- Phát triển bền vững là sự phát triển nhằm đáp ứng những nhu cầu của thế hệ hiện tại mà không làm tổn hại đến khả năng đáp ứng nhu cầu của các thế hệ tương lai trên cơ sở kết hợp chặt chẽ, hài hòa giữa ba trụ cột: tăng trưởng kinh tế, công bằng xã hội và bảo vệ môi trường.\n- Tăng trưởng xanh là phương thức phát triển kinh tế bền vững, nhấn mạnh vào việc thúc đẩy tăng trưởng và phát triển kinh tế, đồng thời bảo tồn các tài sản tự nhiên để tiếp tục cung cấp các tài nguyên và dịch vụ môi trường cho cuộc sống con người. Biểu hiện cụ thể: giảm phát thải khí nhà kính, chuyển dịch sang năng lượng tái tạo (gió, mặt trời), sử dụng tài nguyên hiệu quả và đẩy mạnh kinh tế tuần hoàn.",
+        "metadata": {
+          "type": "text",
+          "title": "Phát triển bền vững và Tăng trưởng xanh",
+          "chapter": "Chương 13",
+          "lesson": "Bài 40",
+          "pdf_page": 112,
+          "crop_filename": "page_111_text_tangtruongxanh.png"
+        },
+        "score": 0.6624459826178217,
+        "rank": 3,
+        "retriever": "dense",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 261.2608999997974
+  }
+]

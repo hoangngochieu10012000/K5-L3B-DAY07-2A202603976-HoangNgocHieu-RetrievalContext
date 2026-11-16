@@ -54,7 +54,7 @@ class DenseRetriever:
             pl = hit.payload or {}
             results.append({
                 "id": pl.get("chunk_id"),
-                "source_id": pl.get("document_id"),
+                "source_id": pl.get("source_id") or pl.get("document_id"),
                 "source": pl.get("source"),
                 "page": int(pl.get("page", 0)),
                 "text": pl.get("text", ""),

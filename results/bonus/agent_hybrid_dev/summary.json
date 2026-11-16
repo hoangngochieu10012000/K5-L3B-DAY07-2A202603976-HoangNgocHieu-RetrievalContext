@@ -1,0 +1,59 @@
+{
+  "cases": 18,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 18,
+    "N": 18
+  },
+  "grounded_answer": {
+    "0": 2,
+    "1": 0,
+    "2": 13,
+    "N": 15,
+    "mean": 1.7333333333333334
+  },
+  "citation_validity": {
+    "n": 14,
+    "N": 14
+  },
+  "answer_citation_coverage": {
+    "n": 13,
+    "N": 13
+  },
+  "abstention": {
+    "n": 3,
+    "N": 3
+  },
+  "false_abstention": {
+    "n": 2,
+    "N": 15
+  },
+  "split": "dev",
+  "category_breakdown": {
+    "table": {
+      "total": 3,
+      "correct": 3
+    },
+    "diagram": {
+      "total": 3,
+      "correct": 3
+    },
+    "chart": {
+      "total": 3,
+      "correct": 3
+    },
+    "multihop": {
+      "total": 3,
+      "correct": 1
+    },
+    "text": {
+      "total": 3,
+      "correct": 3
+    },
+    "abstention": {
+      "total": 3,
+      "correct": 3
+    }
+  },
+  "overall_accuracy": 88.89
+}

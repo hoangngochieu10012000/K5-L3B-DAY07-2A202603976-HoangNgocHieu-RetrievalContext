@@ -1,0 +1,548 @@
+[
+  {
+    "id": "b_dev_table_01",
+    "split": "dev",
+    "category": "table",
+    "question": "Theo Bảng 19.2 (Trang 58), tỉ trọng nhóm dân số dưới 15 tuổi của thế giới giảm từ năm 1950 đến năm 2020 như thế nào?",
+    "expected_answer": "Tỉ trọng nhóm dưới 15 tuổi giảm liên tục từ 34,3% (năm 1950) xuống 25,4% (năm 2020), giảm 8,9%.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 58,
+        "evidence": "Tỉ trọng nhóm dưới 15 tuổi có xu hướng giảm liên tục từ 34,3% (1950) xuống 25,4% (2020), giảm 8,9%"
+      }
+    ]
+  },
+  {
+    "id": "b_dev_table_02",
+    "split": "dev",
+    "category": "table",
+    "question": "Theo Bảng 20 (Trang 61), năm 2020 tỉ lệ dân thành thị của nhóm nước phát triển cao hơn nhóm nước đang phát triển bao nhiêu phần trăm?",
+    "expected_answer": "Năm 2020, tỉ lệ dân thành thị của nhóm nước phát triển (79,1%) cao hơn 27,4% so với nhóm nước đang phát triển (51,7%).",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 61,
+        "evidence": "Năm 2020, nhóm nước phát triển có tỉ lệ dân thành thị là 79,1%, cao hơn 27,4% so với nhóm nước đang phát triển (51,7%)."
+      }
+    ]
+  },
+  {
+    "id": "b_dev_table_03",
+    "split": "dev",
+    "category": "table",
+    "question": "Theo Bảng 25 (Trang 75), sản lượng nuôi trồng thủy sản của thế giới tăng gấp bao nhiêu lần từ năm 2000 đến năm 2019?",
+    "expected_answer": "Sản lượng nuôi trồng thủy sản thế giới tăng gấp hơn 2,63 lần, từ 32,4 triệu tấn (năm 2000) lên 85,3 triệu tấn (năm 2019).",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 75,
+        "evidence": "Sản lượng nuôi trồng tăng rất nhanh (gấp hơn 2,63 lần từ 32,4 lên 85,3 triệu tấn)"
+      }
+    ]
+  },
+  {
+    "id": "b_dev_diag_01",
+    "split": "dev",
+    "category": "diagram",
+    "question": "Theo Hình 5.2 ở Trang 19, người ta quy định kinh tuyến nào làm đường chuyển ngày quốc tế và quy tắc đổi ngày khi đi qua kinh tuyến đó?",
+    "expected_answer": "Lấy kinh tuyến 180 độ làm đường chuyển ngày quốc tế. Đi từ tây sang đông lùi lại 1 ngày lịch, đi từ đông sang tây tăng thêm 1 ngày lịch.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 19,
+        "evidence": "Người ta quy định lấy kinh tuyến 180 độ đi qua giữa múi giờ số 12 ở Thái Bình Dương làm đường chuyển ngày quốc tế. Nếu đi từ tây sang đông qua kinh tuyến 180 độ thì lùi lại một ngày lịch; nếu đi từ đông sang tây qua kinh tuyến 180 độ thì tăng thêm một ngày lịch."
+      }
+    ]
+  },
+  {
+    "id": "b_dev_diag_02",
+    "split": "dev",
+    "category": "diagram",
+    "question": "Theo Lược đồ các mảng kiến tạo Hình 6.2 (Trang 23), thạch quyển được cấu tạo bởi 7 mảng kiến tạo lớn nào?",
+    "expected_answer": "Bảy mảng kiến tạo lớn gồm: mảng Thái Bình Dương, mảng Ấn Độ - Ô-xtrây-li-a, mảng Âu - Á, mảng Bắc Mỹ, mảng Nam Mỹ, mảng Phi, mảng Nam Cực.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 23,
+        "evidence": "Thạch quyển được cấu tạo bởi 7 mảng kiến tạo lớn gồm: mảng Thái Bình Dương, mảng Ấn Độ - Ô-xtrây-li-a, mảng Âu - Á, mảng Bắc Mỹ, mảng Nam Mỹ, mảng Phi, mảng Nam Cực."
+      }
+    ]
+  },
+  {
+    "id": "b_dev_diag_03",
+    "split": "dev",
+    "category": "diagram",
+    "question": "Dựa vào Sơ đồ ở Trang 63, các nguồn lực phát triển kinh tế được phân loại thành ba nhóm chính nào?",
+    "expected_answer": "Ba nhóm chính gồm: Vị trí địa lí, Nguồn lực tự nhiên và Nguồn lực kinh tế - xã hội.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 63,
+        "evidence": "Phân loại gồm ba nhóm chính:\n1. Vị trí địa lí: Vị trí tự nhiên, vị trí kinh tế, chính trị, giao thông... tạo thuận lợi hoặc khó khăn trong giao lưu, hợp tác.\n2. Nguồn lực tự nhiên: Đất, nước, khí hậu, sinh vật, khoáng sản... là cơ sở tự nhiên của quá trình sản xuất.\n3. Nguồn lực kinh tế - xã hội: Dân số và nguồn lao động, vốn đầu tư, khoa học - công nghệ, thị trường, đường lối chính sách..."
+      }
+    ]
+  },
+  {
+    "id": "b_dev_chart_01",
+    "split": "dev",
+    "category": "chart",
+    "question": "Dựa vào biểu đồ Hình 19.2 (Trang 59), hãy nêu đặc điểm hình dạng và ý nghĩa của kiểu tháp dân số mở rộng?",
+    "expected_answer": "Kiểu mở rộng có đáy tháp rộng, đỉnh nhọn, các cạnh thoải; biểu hiện tỉ suất sinh cao, trẻ em nhiều, tuổi thọ trung bình thấp, dân số tăng nhanh (dân số trẻ).",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 59,
+        "evidence": "- Kiểu mở rộng: Đáy tháp rộng, đỉnh tháp nhọn, các cạnh thoải; thể hiện tỉ suất sinh cao, trẻ em nhiều, tuổi thọ trung bình thấp, dân số tăng nhanh (kết cấu dân số trẻ)."
+      }
+    ]
+  },
+  {
+    "id": "b_dev_chart_02",
+    "split": "dev",
+    "category": "chart",
+    "question": "Theo biểu đồ khí hậu Hình 10 (Trang 36), trạm Pa-lec-mô (I-ta-li-a) có đặc điểm nhiệt độ và lượng mưa mùa hạ như thế nào?",
+    "expected_answer": "Tại Pa-lec-mô (cận nhiệt địa trung hải), mùa hạ khô nóng ít mưa với nhiệt độ tháng 7-8 cao nhất (25°C), mùa đông ấm áp mưa nhiều.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 36,
+        "evidence": "Trạm Pa-lec-mô (I-ta-li-a - Kiểu khí hậu cận nhiệt địa trung hải): Nhiệt độ tháng 7-8 cao nhất (25°C), tháng 1 ấm áp (11°C). Lượng mưa năm 650 mm, mùa hạ khô nóng ít mưa, mùa đông mưa nhiều."
+      }
+    ]
+  },
+  {
+    "id": "b_dev_chart_03",
+    "split": "dev",
+    "category": "chart",
+    "question": "Dựa vào biểu đồ Hình 29.2 (Trang 84), ba nguồn năng lượng chiếm tỉ trọng lớn nhất trong cơ cấu sử dụng năng lượng thế giới năm 2019 là gì?",
+    "expected_answer": "Ba nguồn năng lượng lớn nhất là: Dầu mỏ (33,1%), Than đá (27,0%) và Khí tự nhiên (24,2%).",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 84,
+        "evidence": "- Dầu mỏ chiếm tỉ trọng lớn nhất: 33,1%\n- Than đá chiếm vị trí thứ hai: 27,0%\n- Khí tự nhiên chiếm: 24,2%"
+      }
+    ]
+  },
+  {
+    "id": "b_dev_multi_01",
+    "split": "dev",
+    "category": "multihop",
+    "question": "Kết hợp Bảng 36 (Trang 102) và Bảng 37 (Trang 104), doanh thu du lịch quốc tế và tổng trị giá xuất nhập khẩu thế giới năm 2019 đạt bao nhiêu tỉ USD?",
+    "expected_answer": "Năm 2019, doanh thu du lịch quốc tế đạt 1.482 tỉ USD và tổng trị giá xuất nhập khẩu hàng hóa thế giới đạt 38.258 tỉ USD.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 102,
+        "evidence": "Doanh thu du lịch quốc tế tăng từ 475 tỉ USD lên 1.482 tỉ USD (tăng 3,12 lần)."
+      }
+    ]
+  },
+  {
+    "id": "b_dev_multi_02",
+    "split": "dev",
+    "category": "multihop",
+    "question": "Kết hợp Sơ đồ tư duy ở Trang 98 và Bảng 33 (Trang 92), ngành bưu chính viễn thông có sản phẩm là gì và thuộc nhóm ngành kinh tế có tỉ trọng GDP thế nào năm 2019?",
+    "expected_answer": "Sản phẩm là sự vận chuyển tin tức, bưu kiện, bưu phẩm, truyền dẫn thông tin điện tử; thuộc ngành Dịch vụ chiếm 67,9% GDP thế giới năm 2019.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 98,
+        "evidence": "Sản phẩm của bưu chính viễn thông là sự vận chuyển tin tức, bưu kiện, bưu phẩm, truyền dẫn thông tin điện tử,... từ nơi gửi đến nơi nhận."
+      }
+    ]
+  },
+  {
+    "id": "b_dev_multi_03",
+    "split": "dev",
+    "category": "multihop",
+    "question": "Kết hợp Bảng 29.1 (Trang 82) và Hình 29.2 (Trang 84), sản lượng than thế giới năm 2019 đạt bao nhiêu triệu tấn và than đá chiếm bao nhiêu phần trăm trong cơ cấu năng lượng?",
+    "expected_answer": "Năm 2019, sản lượng than đạt 8.049 triệu tấn và than đá chiếm 27,0% trong cơ cấu sử dụng năng lượng thế giới.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 82,
+        "evidence": "| 2019 | 8.049 | 4.478 | 27.000 |"
+      }
+    ]
+  },
+  {
+    "id": "b_dev_text_01",
+    "split": "dev",
+    "category": "text",
+    "question": "Theo nội dung bài 15 ở Trang 51, nguyên nhân chủ yếu tạo nên quy luật địa đới trên Trái Đất là gì?",
+    "expected_answer": "Do dạng hình cầu của Trái Đất và góc chiếu của bức xạ mặt trời giảm dần từ xích đạo về hai cực, làm cho lượng bức xạ phân bố không đều.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 51,
+        "evidence": "Nguyên nhân: Do dạng hình cầu của Trái Đất và góc chiếu của bức xạ mặt trời giảm dần từ xích đạo về hai cực, làm cho lượng bức xạ mặt trời phân bố không đều."
+      }
+    ]
+  },
+  {
+    "id": "b_dev_text_02",
+    "split": "dev",
+    "category": "text",
+    "question": "Theo mục b Trang 98, ngành bưu chính viễn thông bao gồm những nhóm nào và sản phẩm của ngành là gì?",
+    "expected_answer": "Bao gồm hai nhóm: bưu chính và viễn thông. Sản phẩm là sự vận chuyển tin tức, bưu kiện, bưu phẩm, truyền dẫn thông tin điện tử,... từ nơi gửi đến nơi nhận.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 98,
+        "evidence": "- Gồm hai nhóm: bưu chính (vận chuyển thư, bưu phẩm, bưu kiện, hàng hoá,...) và viễn thông (dịch vụ gửi, truyền, nhận và xử lí thông tin giữa các đối tượng sử dụng).\n- Sản phẩm của bưu chính viễn thông là sự vận chuyển tin tức, bưu kiện, bưu phẩm, truyền dẫn thông tin điện tử,... từ nơi gửi đến nơi nhận."
+      }
+    ]
+  },
+  {
+    "id": "b_dev_text_03",
+    "split": "dev",
+    "category": "text",
+    "question": "Theo bài 39 ở Trang 108, hãy nêu 4 vai trò của môi trường sống đối với con người?",
+    "expected_answer": "Bốn vai trò gồm: là không gian sống; nguồn cung cấp tài nguyên thiên nhiên; nơi chứa đựng và đồng hóa chất thải; nơi lưu trữ và cung cấp thông tin.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 108,
+        "evidence": "Vai trò của môi trường: là không gian sống của con người; là nguồn cung cấp tài nguyên thiên nhiên; là nơi chứa đựng và đồng hóa các chất thải; là nơi lưu trữ và cung cấp thông tin."
+      }
+    ]
+  },
+  {
+    "id": "b_test_table_01",
+    "split": "test",
+    "category": "table",
+    "question": "Theo Bảng 33 (Trang 92), tỉ trọng của ngành Dịch vụ trong cơ cấu GDP thế giới năm 2019 đạt bao nhiêu phần trăm?",
+    "expected_answer": "Năm 2019, tỉ trọng ngành Dịch vụ trong cơ cấu GDP thế giới đạt 67,9%.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 92,
+        "evidence": "Tỉ trọng ngành Dịch vụ chiếm vị trí áp đảo và tăng từ 64,1% (năm 2000) lên 67,9% (năm 2019), tăng thêm 3,8%."
+      }
+    ]
+  },
+  {
+    "id": "b_test_table_02",
+    "split": "test",
+    "category": "table",
+    "question": "Theo Bảng 33, tỉ trọng của ngành Công nghiệp và xây dựng trong cơ cấu GDP thế giới thay đổi như thế nào giữa năm 2000 và năm 2019?",
+    "expected_answer": "Tỉ trọng ngành Công nghiệp và xây dựng giảm từ 30,7% (năm 2000) xuống 27,9% (năm 2019), giảm 2,8%.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 92,
+        "evidence": "Tỉ trọng Công nghiệp và xây dựng giảm mạnh nhất: từ 30,7% xuống 27,9% (giảm 2,8%)."
+      }
+    ]
+  },
+  {
+    "id": "b_test_table_03",
+    "split": "test",
+    "category": "table",
+    "question": "Theo Bảng 9, ở bán cầu Bắc, vĩ độ 70° có nhiệt độ trung bình năm và biên độ nhiệt độ năm là bao nhiêu độ C?",
+    "expected_answer": "Ở vĩ độ 70° bán cầu Bắc, nhiệt độ trung bình năm là -10,4°C và biên độ nhiệt độ năm là 32,2°C.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 30,
+        "evidence": "| 70° | -10,4 | 32,2 |"
+      }
+    ]
+  },
+  {
+    "id": "b_test_table_04",
+    "split": "test",
+    "category": "table",
+    "question": "Theo Bảng 19.1, châu lục nào có quy mô dân số lớn nhất thế giới năm 2020 và đạt bao nhiêu triệu người?",
+    "expected_answer": "Châu Á có quy mô dân số lớn nhất năm 2020 đạt 4.641 triệu người (chiếm 59,5% dân số toàn cầu).",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 56,
+        "evidence": "Châu Á luôn chiếm tỉ trọng dân số lớn nhất thế giới (chiếm 59,5% dân số toàn cầu năm 2020: 4.641 / 7.795 triệu người)."
+      }
+    ]
+  },
+  {
+    "id": "b_test_table_05",
+    "split": "test",
+    "category": "table",
+    "question": "Theo Bảng 24.1, năm 2019 sản lượng lúa mì của thế giới vượt sản lượng lúa gạo bao nhiêu triệu tấn?",
+    "expected_answer": "Năm 2019, sản lượng lúa mì (765,8 triệu tấn) vượt sản lượng lúa gạo (755,5 triệu tấn) là 10,3 triệu tấn.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 70,
+        "evidence": "Năm 2019, sản lượng lúa mì (765,8 triệu tấn) vượt qua sản lượng lúa gạo (755,5 triệu tấn) với mức chênh lệch 10,3 triệu tấn."
+      }
+    ]
+  },
+  {
+    "id": "b_test_table_06",
+    "split": "test",
+    "category": "table",
+    "question": "Theo Bảng 29.1, sản lượng điện của thế giới tăng từ bao nhiêu lên bao nhiêu tỉ kWh trong giai đoạn 2000 - 2019?",
+    "expected_answer": "Sản lượng điện thế giới tăng từ 15.500 tỉ kWh (năm 2000) lên 27.000 tỉ kWh (năm 2019), tăng 1,74 lần.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 82,
+        "evidence": "Sản lượng điện tăng nhanh nhất (tăng 1,74 lần từ 15.500 tỉ kWh lên 27.000 tỉ kWh)."
+      }
+    ]
+  },
+  {
+    "id": "b_test_diag_01",
+    "split": "test",
+    "category": "diagram",
+    "question": "Theo sơ đồ tư duy ở Trang 98, ngành bưu chính viễn thông có những vai trò chủ yếu nào đối với phát triển kinh tế?",
+    "expected_answer": "Gồm 3 vai trò: cung ứng và truyền tải thông tin, vận chuyển bưu phẩm/kiện tăng năng suất lao động; hiện đại hoá, thay đổi cách tổ chức nền kinh tế; bản thân là ngành dịch vụ mang lại giá trị kinh tế cao.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 98,
+        "evidence": "1. Với phát triển kinh tế (3 vai trò chính):\n- Cung ứng và truyền tải thông tin, vận chuyển bưu phẩm, bưu kiện góp phần tăng năng suất lao động.\n- Hiện đại hoá, thay đổi cách thức tổ chức nền kinh tế, thúc đẩy kinh tế phát triển.\n- Bản thân bưu chính viễn thông cũng là ngành dịch vụ mang lại giá trị kinh tế cao."
+      }
+    ]
+  },
+  {
+    "id": "b_test_diag_02",
+    "split": "test",
+    "category": "diagram",
+    "question": "Theo sơ đồ tư duy ở Trang 98, đối với các lĩnh vực khác, ngành bưu chính viễn thông đóng những vai trò gì?",
+    "expected_answer": "Gồm 3 vai trò: đảm bảo giao lưu giữa các vùng, thúc đẩy hội nhập toàn cầu hoá; tạo thuận lợi cho quản lí hành chính; nâng cao đời sống văn hoá, tinh thần xã hội.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 98,
+        "evidence": "2. Với các lĩnh vực khác (3 vai trò chính):\n- Đảm bảo giao lưu giữa các vùng, thúc đẩy quá trình hội nhập và toàn cầu hoá.\n- Tạo thuận lợi cho quản lí hành chính.\n- Nâng cao đời sống văn hoá, tinh thần trong xã hội."
+      }
+    ]
+  },
+  {
+    "id": "b_test_diag_03",
+    "split": "test",
+    "category": "diagram",
+    "question": "Dựa vào Hình 34.6 và nội dung trang 96, hãy kể tên 4 sân bay quốc tế vận chuyển hành khách lớn nhất thế giới năm 2019?",
+    "expected_answer": "Bốn sân bay quốc tế lớn nhất năm 2019 là: Át-lan-ta (Hoa Kỳ), Bắc Kinh (Trung Quốc), Lốt An-giơ-lét (Hoa Kỳ), Đu-bai (Các Tiểu vương quốc A-rập Thống nhất).",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 96,
+        "evidence": "Bốn sân bay quốc tế vận chuyển hành khách lớn nhất năm 2019 gồm: Át-lan-ta (Hoa Kỳ), Bắc Kinh (Trung Quốc), Lốt An-giơ-lét (Hoa Kỳ), Đu-bai (Các Tiểu vương quốc A-rập Thống nhất)."
+      }
+    ]
+  },
+  {
+    "id": "b_test_diag_04",
+    "split": "test",
+    "category": "diagram",
+    "question": "Dựa vào Hình 34.6 và nội dung trang 96-97, các cảng biển có lượng hàng hóa lưu thông lớn nhất năm 2019 phân bố tập trung ở châu lục nào và gồm những cảng nào?",
+    "expected_answer": "Các cảng biển lớn nhất năm 2019 đều nằm ở châu Á, gồm: Thượng Hải, Xin-ga-po, Ninh Ba - Chu Sơn, Thâm Quyến và Bu-san.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 96,
+        "evidence": "Các cảng biển lớn nhất năm 2019 đều nằm ở châu Á: Thượng Hải (Trung Quốc), Xin-ga-po, Ninh Ba - Chu Sơn (Trung Quốc), Thâm Quyến (Trung Quốc), Bu-san (Hàn Quốc)."
+      }
+    ]
+  },
+  {
+    "id": "b_test_diag_05",
+    "split": "test",
+    "category": "diagram",
+    "question": "Theo sơ đồ cấu tạo vỏ Trái Đất ở Trang 17, vỏ Trái Đất gồm những tầng đá nào từ trên xuống dưới?",
+    "expected_answer": "Gồm 3 tầng từ trên xuống: Tầng trầm tích ở trên cùng, Tầng granit ở giữa và Tầng badan ở dưới cùng.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 17,
+        "evidence": "Sơ đồ cấu tạo vỏ Trái Đất (Trang 17):\n- Tầng trầm tích: Nằm ở trên cùng, do các vật liệu vụn, nhỏ bị nén chặt tạo thành; tầng này không liên tục và có độ dày không đều.\n- Tầng granit: Gồm các loại đá nhẹ (như đá granit và các loại đá có tính chất tương tự) tạo nên; lớp vỏ lục địa được cấu tạo chủ yếu bằng granit.\n- Tầng badan: Gồm các loại đá nặng hơn (như đá badan và các loại đá có tính chất tương tự) tạo nên; lớp vỏ đại dương cấu tạo chủ yếu bằng badan."
+      }
+    ]
+  },
+  {
+    "id": "b_test_chart_01",
+    "split": "test",
+    "category": "chart",
+    "question": "Dựa vào biểu đồ Hình 13 ở Trang 44, mùa lũ của sông Hồng tại trạm Hà Nội kéo dài trong những tháng nào và tháng nào đạt đỉnh lũ?",
+    "expected_answer": "Mùa lũ kéo dài 5 tháng (tháng 6 đến tháng 10), đỉnh lũ vào tháng 8 trên 9.000 m³/s (khoảng 9.200 m³/s), chiếm khoảng 75% tổng lượng nước cả năm.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 44,
+        "evidence": "Mùa lũ kéo dài 5 tháng (từ tháng 6 đến tháng 10), lưu lượng nước tháng cao nhất là tháng 8 (đạt trên 9.000 m³/s, đỉnh lũ khoảng 9.200 m³/s). Mùa lũ chiếm khoảng 75% tổng lượng nước cả năm."
+      }
+    ]
+  },
+  {
+    "id": "b_test_chart_02",
+    "split": "test",
+    "category": "chart",
+    "question": "Dựa vào biểu đồ nhiệt độ và lượng mưa Hình 10 (Trang 36), hãy nêu đặc điểm nhiệt độ tháng 1 và lượng mưa trung bình năm của trạm I-cu-xcơ (Nga)?",
+    "expected_answer": "Tại trạm I-cu-xcơ, nhiệt độ tháng 1 thấp nhất xuống dưới -20°C (khoảng -21°C), lượng mưa trung bình năm thấp (410 mm) tập trung vào mùa hạ.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 36,
+        "evidence": "Trạm I-cu-xcơ (Nga - Kiểu khí hậu ôn đới lục địa): Nhiệt độ tháng 7 cao nhất đạt khoảng 19°C, nhiệt độ tháng 1 thấp nhất xuống dưới -20°C (khoảng -21°C). Lượng mưa trung bình năm thấp (410 mm), mưa tập trung chủ yếu vào mùa hạ."
+      }
+    ]
+  },
+  {
+    "id": "b_test_chart_03",
+    "split": "test",
+    "category": "chart",
+    "question": "Dựa vào biểu đồ Hình 18 (Trang 54), tỉ suất gia tăng dân số tự nhiên của thế giới thay đổi như thế nào từ năm 1970 đến năm 2020?",
+    "expected_answer": "Tỉ suất gia tăng dân số tự nhiên của thế giới giảm từ 2,08% (năm 1970) xuống 1,09% (năm 2020).",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 54,
+        "evidence": "Tỉ suất gia tăng dân số tự nhiên của thế giới có xu hướng giảm rõ rệt từ năm 1970 (2,08%) xuống còn 1,09% năm 2020."
+      }
+    ]
+  },
+  {
+    "id": "b_test_chart_04",
+    "split": "test",
+    "category": "chart",
+    "question": "Theo biểu đồ Hình 21 (Trang 65), cơ cấu ngành kinh tế của nhóm nước phát triển năm 2020 có tỉ trọng các ngành nông nghiệp, công nghiệp và dịch vụ lần lượt là bao nhiêu?",
+    "expected_answer": "Nhóm nước phát triển năm 2020 có: Nông nghiệp chiếm 1,5%; Công nghiệp và xây dựng chiếm 24,0%; Dịch vụ chiếm 74,5%.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 65,
+        "evidence": "Nhóm nước phát triển: Nông nghiệp, lâm nghiệp, thuỷ sản chiếm 1,5%; Công nghiệp và xây dựng chiếm 24,0%; Dịch vụ chiếm 74,5%."
+      }
+    ]
+  },
+  {
+    "id": "b_test_chart_05",
+    "split": "test",
+    "category": "chart",
+    "question": "Theo biểu đồ cơ cấu sử dụng năng lượng thế giới năm 2019 (Hình 29.2 Trang 84), nguồn năng lượng nào chiếm tỉ trọng lớn nhất và tỉ trọng đó là bao nhiêu?",
+    "expected_answer": "Dầu mỏ chiếm tỉ trọng lớn nhất với 33,1% trong tổng cơ cấu sử dụng năng lượng toàn cầu năm 2019.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 84,
+        "evidence": "- Dầu mỏ chiếm tỉ trọng lớn nhất: 33,1%\n- Than đá chiếm vị trí thứ hai: 27,0%"
+      }
+    ]
+  },
+  {
+    "id": "b_test_multi_01",
+    "split": "test",
+    "category": "multihop",
+    "question": "Kết hợp số liệu Bảng 33 (Trang 92) và Bảng 34 (Trang 97), ngành dịch vụ và vận tải hành khách đường hàng không thế giới có xu hướng tăng trưởng như thế nào từ 2000 đến 2019?",
+    "expected_answer": "Cả hai đều tăng mạnh: tỉ trọng ngành dịch vụ tăng từ 64,1% lên 67,9%, và lượt hành khách hàng không tăng từ 1,9 tỉ lên 4,4 tỉ lượt người.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 92,
+        "evidence": "Tỉ trọng ngành Dịch vụ chiếm vị trí áp đảo và tăng từ 64,1% (năm 2000) lên 67,9% (năm 2019), tăng thêm 3,8%."
+      }
+    ]
+  },
+  {
+    "id": "b_test_multi_02",
+    "split": "test",
+    "category": "multihop",
+    "question": "Kết hợp Bảng 19.1 (Trang 56) và Bảng 20 (Trang 61), quy mô dân số và tỉ lệ dân thành thị toàn thế giới thay đổi như thế nào từ năm 1950 đến năm 2020?",
+    "expected_answer": "Dân số thế giới tăng từ 2.536 triệu lên 7.795 triệu người, đồng thời tỉ lệ dân thành thị tăng từ 29,6% lên 56,2%.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 56,
+        "evidence": "Toàn thế giới | 2.536 | 3.700 | 5.310 | 6.957 | 7.795 |"
+      }
+    ]
+  },
+  {
+    "id": "b_test_multi_03",
+    "split": "test",
+    "category": "multihop",
+    "question": "Dựa vào Sơ đồ cơ cấu ngành dịch vụ (Trang 91) và câu hỏi ôn tập ở Trang 92, các hoạt động giao thông vận tải, tư vấn pháp lí, bảo tàng và giáo dục được xếp vào những nhóm dịch vụ nào?",
+    "expected_answer": "Giao thông vận tải và tư vấn pháp lí thuộc nhóm dịch vụ kinh doanh; bảo tàng và giáo dục thuộc nhóm dịch vụ tiêu dùng.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 92,
+        "evidence": "Câu hỏi ôn tập liên quan: Giao thông vận tải, tư vấn pháp lí, công chứng thuộc nhóm dịch vụ kinh doanh; bảo tàng, tư vấn sức khỏe, giáo dục thuộc nhóm dịch vụ tiêu dùng."
+      }
+    ]
+  },
+  {
+    "id": "b_test_multi_04",
+    "split": "test",
+    "category": "multihop",
+    "question": "Kết hợp Bảng 24.1 (Trang 70) và Bảng 25 (Trang 75), hãy cho biết sản lượng lúa mì và sản lượng nuôi trồng thủy sản của thế giới năm 2019 đạt bao nhiêu triệu tấn?",
+    "expected_answer": "Năm 2019, sản lượng lúa mì thế giới đạt 765,8 triệu tấn và sản lượng nuôi trồng thủy sản đạt 85,3 triệu tấn.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 70,
+        "evidence": "| Lúa mì | 585,8 | 626,9 | 653,7 | 741,7 | 765,8 |"
+      }
+    ]
+  },
+  {
+    "id": "b_test_text_01",
+    "split": "test",
+    "category": "text",
+    "question": "Khái niệm đô thị hóa được định nghĩa như thế nào trong bài 20 (Trang 60) sách giáo khoa Địa lí 10?",
+    "expected_answer": "Đô thị hóa là một quá trình kinh tế - xã hội mà biểu hiện là sự tăng nhanh về số lượng và quy mô của các điểm dân cư đô thị, sự tập trung dân cư trong các thành phố, đặc biệt là các thành phố lớn và sự phổ biến rộng rãi lối sống thành thị.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 60,
+        "evidence": "Đô thị hóa là một quá trình kinh tế - xã hội mà biểu hiện là sự tăng nhanh về số lượng và quy mô của các điểm dân cư đô thị, sự tập trung dân cư trong các thành phố, đặc biệt là các thành phố lớn và sự phổ biến rộng rãi lối sống thành thị."
+      }
+    ]
+  },
+  {
+    "id": "b_test_text_02",
+    "split": "test",
+    "category": "text",
+    "question": "Theo nội dung bài 28 ở Trang 78, quá trình sản xuất công nghiệp gồm có hai giai đoạn cơ bản nào?",
+    "expected_answer": "Giai đoạn 1 là tác động vào đối tượng lao động để khai thác tài nguyên thiên nhiên; Giai đoạn 2 là chế biến nguyên liệu thành tư liệu sản xuất và vật phẩm tiêu dùng.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 78,
+        "evidence": "Giai đoạn 1 là tác động vào đối tượng lao động để khai thác tài nguyên thiên nhiên; Giai đoạn 2 là chế biến nguyên liệu thành tư liệu sản xuất và vật phẩm tiêu dùng."
+      }
+    ]
+  },
+  {
+    "id": "b_test_text_03",
+    "split": "test",
+    "category": "text",
+    "question": "Theo nội dung bài 37 (Trang 105), cán cân thương mại là gì và khi nào một quốc gia được coi là xuất siêu?",
+    "expected_answer": "Cán cân thương mại là hiệu số giữa giá trị xuất khẩu và giá trị nhập khẩu hàng hóa, dịch vụ. Khi giá trị xuất khẩu lớn hơn nhập khẩu thì gọi là xuất siêu (cán cân thương mại dương).",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 105,
+        "evidence": "Cán cân thương mại là hiệu số giữa giá trị xuất khẩu và giá trị nhập khẩu hàng hóa, dịch vụ của một quốc gia trong một thời kỳ nhất định (thường là một năm).\n- Khi giá trị xuất khẩu lớn hơn giá trị nhập khẩu: cán cân thương mại dương, quốc gia đó xuất siêu."
+      }
+    ]
+  },
+  {
+    "id": "b_test_text_04",
+    "split": "test",
+    "category": "text",
+    "question": "Thuật ngữ Tăng trưởng xanh được định nghĩa như thế nào trong bài 40 ở Trang 111?",
+    "expected_answer": "Tăng trưởng xanh là phương thức phát triển kinh tế bền vững, nhấn mạnh vào việc thúc đẩy tăng trưởng và phát triển kinh tế, đồng thời bảo tồn các tài sản tự nhiên để tiếp tục cung cấp các tài nguyên và dịch vụ môi trường cho cuộc sống con người.",
+    "gold": [
+      {
+        "source_id": "sgk-dia-li-10-kntt",
+        "page": 111,
+        "evidence": "Tăng trưởng xanh là phương thức phát triển kinh tế bền vững, nhấn mạnh vào việc thúc đẩy tăng trưởng và phát triển kinh tế, đồng thời bảo tồn các tài sản tự nhiên để tiếp tục cung cấp các tài nguyên và dịch vụ môi trường cho cuộc sống con người."
+      }
+    ]
+  }
+]

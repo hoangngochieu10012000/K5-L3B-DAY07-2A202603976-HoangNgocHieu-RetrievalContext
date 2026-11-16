@@ -92,12 +92,12 @@ class NvidiaGemmaController:
     def decide(self, question: str, history: list[dict[str, Any]]) -> dict[str, Any]:
         """Decide next action: search or final answer with citations."""
         system_prompt = (
-            "Bạn là một trợ lý AI thông minh chuyên nghiên cứu tài liệu kỹ thuật về RAG (Retrieval-Augmented Generation) "
-            "và LangChain (khóa AIO2025).\n"
+            "Bạn là một trợ lý AI thông minh chuyên nghiên cứu và tra cứu thông tin chính xác từ tài liệu được cung cấp.\n"
             "Bạn có quyền truy xuất dữ liệu từ kho tài liệu để tìm kiếm bằng chứng và trả lời câu hỏi.\n\n"
             "QUY TẮC HOẠT ĐỘNG:\n"
             "1. Nếu chưa có ngữ cảnh tài liệu (context) hoặc ngữ cảnh hiện tại chưa đủ để trả lời câu hỏi, hãy yêu cầu tìm kiếm bằng cách trả về JSON:\n"
-            '   {"action": "search", "query": "<câu truy vấn ngắn gọn, tập trung vào từ khóa cốt lõi>"}\n\n'
+            '   {"action": "search", "query": "<câu truy vấn ngắn gọn BẰNG TIẾNG VIỆT, tập trung vào từ khóa cốt lõi, tên bảng/hình hoặc số trang nếu có>"}\n'
+            "   (LƯU Ý: Luôn dùng tiếng Việt để tìm kiếm. Với câu hỏi kết hợp nhiều nguồn/bảng/trang, nếu ngữ cảnh mới chỉ có 1 phần thông tin thì lượt tìm kiếm tiếp theo hãy tập trung vào phần thông tin còn thiếu).\n\n"
             "2. Khi đã có ngữ cảnh tài liệu (gồm các đoạn văn bản kèm định danh [chunk_id]):\n"
             "   - Kiểm tra kỹ xem trong ngữ cảnh có thông tin chính xác hỗ trợ câu trả lời hay không.\n"
             "   - NẾU CÓ ĐỦ BẰNG CHỨNG: Trả lời câu hỏi một cách chính xác, khách quan, súc tích bằng tiếng Việt. "

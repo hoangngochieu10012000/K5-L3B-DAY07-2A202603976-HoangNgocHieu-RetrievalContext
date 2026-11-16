@@ -1,0 +1,11 @@
+{
+  "retriever": "bm25",
+  "split": "dev",
+  "n": 15,
+  "hit1": 13,
+  "hit1_rate": 0.8666666666666667,
+  "hit3": 15,
+  "hit3_rate": 1.0,
+  "context_hit": 13,
+  "context_evidence_rate": 0.8666666666666667
+}

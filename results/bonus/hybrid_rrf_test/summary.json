@@ -1,0 +1,11 @@
+{
+  "retriever": "hybrid_rrf",
+  "split": "test",
+  "n": 24,
+  "hit1": 21,
+  "hit1_rate": 0.875,
+  "hit3": 24,
+  "hit3_rate": 1.0,
+  "context_hit": 21,
+  "context_evidence_rate": 0.875
+}
