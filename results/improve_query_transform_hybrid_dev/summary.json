@@ -1,0 +1,14 @@
+{
+  "strategy": "improve_query_transform_hybrid",
+  "split": "dev",
+  "n": 15,
+  "hit1": 7,
+  "hit1_rate": 0.4666666666666667,
+  "hit3": 12,
+  "hit3_rate": 0.8,
+  "context_hit": 8,
+  "context_evidence_rate": 0.5333333333333333,
+  "avg_context_chars": 622.4666666666667,
+  "median_ms": 51.13930000015898,
+  "cost_usd": 0.0
+}

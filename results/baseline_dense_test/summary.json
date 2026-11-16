@@ -1,0 +1,14 @@
+{
+  "strategy": "baseline_dense_test",
+  "split": "test",
+  "n": 5,
+  "hit1": 3,
+  "hit1_rate": 0.6,
+  "hit3": 3,
+  "hit3_rate": 0.6,
+  "context_hit": 2,
+  "context_evidence_rate": 0.4,
+  "avg_context_chars": 608.4,
+  "median_ms": 50.928099999964616,
+  "cost_usd": 0.0
+}

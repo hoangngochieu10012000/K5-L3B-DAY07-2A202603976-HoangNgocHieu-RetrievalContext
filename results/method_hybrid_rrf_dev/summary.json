@@ -1,0 +1,14 @@
+{
+  "strategy": "method_hybrid_rrf",
+  "split": "dev",
+  "n": 15,
+  "hit1": 8,
+  "hit1_rate": 0.5333333333333333,
+  "hit3": 13,
+  "hit3_rate": 0.8666666666666667,
+  "context_hit": 8,
+  "context_evidence_rate": 0.5333333333333333,
+  "avg_context_chars": 595.6,
+  "median_ms": 56.346599999869795,
+  "cost_usd": 0.0
+}

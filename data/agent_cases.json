@@ -1,0 +1,194 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Khái niệm RAG lần đầu tiên được đề xuất chính thức trong bài báo nào và bởi ai?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p4_b00"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Thuật ngữ Hallucination trong mô hình ngôn ngữ lớn được định nghĩa như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p3_b00"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Kỹ thuật Grounding có vai trò gì trong hệ thống hỏi đáp?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p3_b01"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Trong kiến trúc RAG nguyên bản năm 2020, mô hình nào đóng vai trò Generator sinh văn bản?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p4_b03"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Sự chuyển dịch sang In-Context RAG tận dụng khả năng gì của các mô hình LLM hiện đại?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p5_b00"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Mục đích của việc thiết lập chunk overlap (độ chồng lấp) khi chia nhỏ văn bản là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p8_b00"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Vì sao không thể cộng trực tiếp điểm số của Vector Search và BM25 trong Hybrid Search?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p11_b00"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Sau khi qua bước Cross-Encoder trong Re-ranking, mô hình có thể giải quyết được mối quan hệ gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p12_b00"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Nếu loại bỏ hoàn toàn LLM trong kiến trúc RAG thì hệ thống sẽ như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p16_b00"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Trong phần cơ sở lý thuyết, các bước của quy trình Ingestion bao gồm những giai đoạn nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p6_b00"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Trong phần thực hành, hàm clean_vietnamese_text giúp giải quyết vấn đề gì khi trích xuất PDF?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p24_b00"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Mô hình ngôn ngữ (LLM) nào được sử dụng trong phần thực hành RAG pipeline?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p26_b02"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Kỹ thuật Chain-of-Thought (CoT) hướng dẫn mô hình làm gì trước khi đưa ra kết luận?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p14_b00"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Vai trò của thành phần VectorStore trong framework LangChain là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p19_b00"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Hiện tượng 'Lost in the Middle' ảnh hưởng như thế nào đến việc xử lý ngữ cảnh của LLM?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p31_b02"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Các tác giả tham gia xây dựng Tutorial RAG của AI VIET NAM gồm những ai?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p1_b00"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Giới hạn số lượng tokens tối đa mà LLM có thể tiếp nhận và xử lý trong một lần prompt được gọi là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p3_b01"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Trong Phase 2: Retrieval, điều gì sẽ xảy ra nếu bước truy xuất thông tin bị sai hoặc thiếu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p9_b00"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Theo phân tích kịch bản mở rộng, vai trò bộ não của LLM trong hệ thống RAG là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p16_b00"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Đường dẫn mặc định persist_dir được thiết lập để lưu trữ database trong phần thực hành là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "target_chunk_id": "aio2025-tutorial-rag_p26_b00"
+  },
+  {
+    "id": "q_dev_abs01",
+    "split": "dev",
+    "question": "Kiến trúc GraphRAG sử dụng thuật toán Leiden để phát hiện các cộng đồng mạng đồ thị tri thức như thế nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu AIO2025 RAG Tutorial chỉ đề cập đến RAG cơ bản, In-Context RAG và LangChain, không chứa thông tin về GraphRAG hay thuật toán phân cụm Leiden."
+  },
+  {
+    "id": "q_dev_abs02",
+    "split": "dev",
+    "question": "Hệ thống Self-RAG sử dụng các reflection tokens nào để kiểm soát quá trình truy xuất và tự sửa lỗi câu trả lời?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu chỉ thảo luận về In-Context RAG với Generator thông thường, hoàn toàn không nhắc đến kỹ thuật Self-RAG hay các reflection tokens."
+  },
+  {
+    "id": "q_test_abs01",
+    "split": "test",
+    "question": "Cơ chế Speculative RAG sử dụng mô hình nhỏ (Drafter) để tạo dự đoán trước khi chuyển cho Verifier như thế nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu không đề cập đến kiến trúc Speculative RAG hay mô hình Drafter/Verifier."
+  },
+  {
+    "id": "q_test_abs02",
+    "split": "test",
+    "question": "Mô hình ColBERT áp dụng cơ chế late interaction với phép toán MaxSim cụ thể ra sao trong bước retrieval?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu chỉ giới thiệu dense retrieval (cosine/dot product), TF-IDF/BM25 và Hybrid search thông thường, không chứa kiến trúc token-level late interaction của ColBERT hay MaxSim."
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "strategy": "method_bm25",
+  "split": "dev",
+  "n": 15,
+  "hit1": 6,
+  "hit1_rate": 0.4,
+  "hit3": 11,
+  "hit3_rate": 0.7333333333333333,
+  "context_hit": 6,
+  "context_evidence_rate": 0.4,
+  "avg_context_chars": 671.8,
+  "median_ms": 0.2997999999934109,
+  "cost_usd": 0.0
+}

@@ -1,0 +1,14 @@
+{
+  "strategy": "method_dense",
+  "split": "dev",
+  "n": 15,
+  "hit1": 7,
+  "hit1_rate": 0.4666666666666667,
+  "hit3": 11,
+  "hit3_rate": 0.7333333333333333,
+  "context_hit": 7,
+  "context_evidence_rate": 0.4666666666666667,
+  "avg_context_chars": 656.9333333333333,
+  "median_ms": 64.08609999971304,
+  "cost_usd": 0.0
+}

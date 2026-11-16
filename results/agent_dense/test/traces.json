@@ -1,0 +1,679 @@
+[
+  {
+    "query_id": "q16",
+    "status": "error",
+    "answer": "Error: NVIDIA API failed after 3 attempts: HTTPSConnectionPool(host='integrate.api.nvidia.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='integrate.api.nvidia.com', port=443): Failed to resolve 'integrate.api.nvidia.com' ([Errno 11002] getaddrinfo failed)\"))",
+    "citations": [],
+    "events": [],
+    "elapsed_s": 34.088149399999566
+  },
+  {
+    "status": "answered",
+    "answer": "Context Window là giới hạn số lượng tokens (đơn vị văn bản) tối đa mà LLM có thể tiếp nhận và xử lý trong một lần prompt [aio2025-tutorial-rag_p3_b01].",
+    "citations": [
+      "aio2025-tutorial-rag_p3_b01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "giới hạn tokens LLM maximum context window",
+        "filter": null,
+        "results": [
+          {
+            "id": "aio2025-tutorial-rag_p34_b01",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 34,
+            "text": "(d) Giới hạn tổng độ dài của prompt không vượt quá 40 token để tiết kiệm chi phí API và\ntránh lỗi Context Window.",
+            "metadata": {
+              "section": "cau_hoi_trac_nghiem",
+              "strategy": "B",
+              "chunk_index": 1,
+              "char_length": 113
+            },
+            "score": 0.8522589639296994,
+            "rank": 1,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p3_b01",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 3,
+            "text": "Semantic Search Tìm kiếm dựa trên sự tương đồng về ý nghĩa thay vì chỉ khớp từ khóa. Chunking Kỹ thuật chia nhỏ văn bản dài thành các đoạn ngắn để tối ưu hóa việc mã hóa và phù hợp với giới hạn Context Window. Context Window Giới hạn số lượng tokens (đơn vị văn bản) tối đa mà LLM có thể tiếp nhận và xử lý trong một lần prompt. Grounding Kỹ thuật “neo” câu trả lời của mô hình vào dữ liệu thực tế được cung cấp để đảm bảo tính xác thực.",
+            "metadata": {
+              "section": "thuat_ngu",
+              "strategy": "B",
+              "chunk_index": 1,
+              "char_length": 437
+            },
+            "score": 0.7731272997707468,
+            "rank": 2,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p13_b00",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 13,
+            "text": "♂lightbulb Ví dụ:\nQuery: “Phí hủy dịch vụ là bao nhiêu?”\n1. Raw Context (300 tokens): “...Theo điều khoản 7.2 của hợp đồng dịch vụ\nđược ký kết vào ngày... (văn bản pháp lý dài dòng)... trong trường hợp khách hàng\nmuốn chấm dứt hợp đồng trước thời hạn, cần thông báo bằng văn bản trước 30\nngày và chịu khoản phí phạt tương đương 02 tháng cước sử dụng...”\n2. Compressed Context (20 tokens): “Điều khoản 7.2: Phí hủy dịch vụ là 02\ntháng cước sử dụng.”\n→ LLM chính chỉ cần nhận đoạn ngắn gọn này, giúp trả lời nhanh hơn và giảm\nthiểu hallucination. 2. Prompt Engineering\nChất lượng câu trả lời phụ thuộc rất lớn vào cách ta ra lệnh cho mô hình.",
+            "metadata": {
+              "section": "retrieval_generation",
+              "strategy": "B",
+              "chunk_index": 0,
+              "char_length": 640
+            },
+            "score": 0.7597374850015597,
+            "rank": 3,
+            "retriever": "dense"
+          }
+        ],
+        "context": "[aio2025-tutorial-rag_p34_b01 | D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf | page 34]\n(d) Giới hạn tổng độ dài của prompt không vượt quá 40 token để tiết kiệm chi phí API và\ntránh lỗi Context Window.\n\n[aio2025-tutorial-rag_p3_b01 | D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf | page 3]\nSemantic Search Tìm kiếm dựa trên sự tương đồng về ý nghĩa thay vì chỉ khớp từ khóa. Chunking Kỹ thuật chia nhỏ văn bản dài thành các đoạn ngắn để tối ưu hóa việc mã hóa và phù hợp với giới hạn Context Window. Context Window Giới hạn số lượng tokens (đơn vị văn bản) tối đa mà LLM có thể tiếp nhận và xử lý trong một lần prompt. Grounding Kỹ thuật “neo” câu trả lời của mô hình vào dữ liệu thực tế được cung cấp để đảm bảo tính xác thực.",
+        "context_ids": [
+          "aio2025-tutorial-rag_p34_b01",
+          "aio2025-tutorial-rag_p3_b01"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "q17",
+    "elapsed_s": 36.90907349999998
+  },
+  {
+    "status": "answered",
+    "answer": "Nếu bước truy xuất thông tin (retrieval) trích xuất thông tin sai hoặc thiếu, LLM sẽ không có đủ dữ liệu để trả lời câu hỏi. [aio2025-tutorial-rag_p9_b00]",
+    "citations": [
+      "aio2025-tutorial-rag_p9_b00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Phase 2 Retrieval error missing information RAG",
+        "filter": {
+          "section": "retrieval_generation"
+        },
+        "results": [
+          {
+            "id": "aio2025-tutorial-rag_p9_b00",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 9,
+            "text": "II.2.2. Phase 2: Retrieval\nĐây là thành phần quyết định sự thành bại của hệ thống RAG. Nếu bước này trích xuất thông\ntin sai hoặc thiếu, LLM sẽ không có đủ dữ liệu để trả lời. Quá trình này không chỉ đơn thuần là\ntìm kiếm vector mà còn bao gồm các kỹ thuật tối ưu hóa sau:\n1. Query Processing\n• Ở bước này, hệ thống nhận câu hỏi từ người dùng và đưa qua mô hình Embedding\nđể tạo ra vector truy vấn q. • Trong thực tế, câu hỏi của người dùng thường ngắn, thiếu ngữ cảnh hoặc có thể mang\nnhiều nghĩa. Để khắc phục, ta có thể áp dụng:\n– Multi-Query: Sử dụng LLM để sinh ra 3-5 biến thể khác nhau của câu hỏi gốc,\nsau đó tìm kiếm tất cả và gộp kết quả lại.",
+            "metadata": {
+              "section": "retrieval_generation",
+              "strategy": "B",
+              "chunk_index": 0,
+              "char_length": 652
+            },
+            "score": 0.7812786161096845,
+            "rank": 1,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p12_b00",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 12,
+            "text": "2. Sau khi qua Cross-Encoder (Re-ranking): (Mô hình đọc hiểu mối quan hệ “không\nnhận được” → “lỗi/spam”)\nA. Rank 1: “Xử lý lỗi email bị rơi vào thư mục Spam.” ↑ (Được đẩy lên đầu)\nB. Rank 2: “Hướng dẫn cài đặt chữ ký email.”\nC. Rank 3: “Quy định về văn hóa gửi email công ty.”\nII.2.3. Phase 3: Generation\nSau khi Retrieval trả về danh sách các tài liệu liên quan, hệ thống chuyển sang giai đoạn sinh\nvăn bản. Đây là lúc LLM tổng hợp thông tin để trả lời người dùng. Quá trình này không chỉ đơn\ngiản là đưa dữ liệu vào, mà còn đòi hỏi các chiến lược xử lý ngữ cảnh tinh tế. 1. Context Preparation\n• Context Stuffing: Đây là phương pháp đơn giản nhất.",
+            "metadata": {
+              "section": "retrieval_generation",
+              "strategy": "B",
+              "chunk_index": 0,
+              "char_length": 649
+            },
+            "score": 0.7158991650173412,
+            "rank": 2,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p9_b01",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 9,
+            "text": "Điều này giúp tăng khả năng tìm thấy\ntài liệu liên quan mà không phụ thuộc vào cách diễn đạt duy nhất của người\ndùng. ♂lightbulb Ví dụ:\nInput (User): “Lỗi kết nối db” (Câu hỏi ngắn, thiếu ngữ cảnh cụ thể)\nLLM Generated Queries:\n(a) “Cách khắc phục lỗi connection timeout khi kết nối database.”\n(b) “Xử lý lỗi Access Denied cho user root trong MySQL/PostgreSQL.”\n(c) “Hướng dẫn kiểm tra firewall chặn port 5432 hoặc 3306.”\n→ Hệ thống sẽ tìm kiếm cả 3 vấn đề (Timeout, Permission, Network) để đảm\nbảo không bỏ sót tài liệu kỹ thuật liên quan.",
+            "metadata": {
+              "section": "retrieval_generation",
+              "strategy": "B",
+              "chunk_index": 1,
+              "char_length": 540
+            },
+            "score": 0.7015729245341298,
+            "rank": 3,
+            "retriever": "dense"
+          }
+        ],
+        "context": "[aio2025-tutorial-rag_p9_b00 | D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf | page 9]\nII.2.2. Phase 2: Retrieval\nĐây là thành phần quyết định sự thành bại của hệ thống RAG. Nếu bước này trích xuất thông\ntin sai hoặc thiếu, LLM sẽ không có đủ dữ liệu để trả lời. Quá trình này không chỉ đơn thuần là\ntìm kiếm vector mà còn bao gồm các kỹ thuật tối ưu hóa sau:\n1. Query Processing\n• Ở bước này, hệ thống nhận câu hỏi từ người dùng và đưa qua mô hình Embedding\nđể tạo ra vector truy vấn q. • Trong thực tế, câu hỏi của người dùng thường ngắn, thiếu ngữ cảnh hoặc có thể mang\nnhiều nghĩa. Để khắc phục, ta có thể áp dụng:\n– Multi-Query: Sử dụng LLM để sinh ra 3-5 biến thể khác nhau của câu hỏi gốc,\nsau đó tìm kiếm tất cả và gộp kết quả lại.",
+        "context_ids": [
+          "aio2025-tutorial-rag_p9_b00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "q18",
+    "elapsed_s": 13.974588299999596
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "LLM role in RAG expanded script analysis",
+        "filter": null,
+        "results": [
+          {
+            "id": "aio2025-tutorial-rag_p15_b00",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 15,
+            "text": "II.3. Mở rộng: Phân tích vai trò của các thành phần\nĐể đánh giá chính xác tầm quan trọng của từng module trong kiến trúc RAG, chúng ta cùng\nphân tích các giả định theo câu hỏi: “Hệ thống sẽ hoạt động như thế nào nếu loại bỏ một thành\nphần cụ thể?”. Kịch bản 1: Loại bỏ Embedding Model\nVai trò Embedding Model: Chuyển đổi văn bản sang vector để hỗ trợ truy vấn theo\nngữ nghĩa. • Cơ chế hoạt động: Khi không có Embedding Model, hệ thống không thể mã hóa văn\nbản thành vector và mất khả năng so sánh tương đồng ngữ nghĩa. Buộc phải quay về\ncác phương pháp truy vấn theo mặt chữ (Lexical Retrieval) như BM25, TF-IDF hoặc\nExact Match.",
+            "metadata": {
+              "section": "phan_tich_vai_tro",
+              "strategy": "B",
+              "chunk_index": 0,
+              "char_length": 629
+            },
+            "score": 0.7240193920983784,
+            "rank": 1,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p8_b01",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 8,
+            "text": "Các mô hình ngôn ngữ lớn giúp chúng ta xử lý\nvà phân tích khối lượng dữ liệu khổng lồ chỉ trong tích tắc. Tuy nhiên,\nviệc ứng dụng công nghệ này đòi hỏi sự hiểu biết sâu sắc để đảm bảo\ntính chính xác và an toàn. overlap\nHình 7: Minh họa cho khái niệm Chunk Overlap. 3. Chiến lược Indexing nâng cao\nỞ RAG cơ bản, đoạn văn bản dùng để tìm kiếm và đoạn văn bản đưa cho LLM cùng là\nmột. Tuy nhiên, điều này có thể nảy sinh mâu thuẫn: chunk nhỏ tốt cho tìm kiếm, chunk\nlớn tốt cho LLM do có nhiều ngữ cảnh hơn. Để giải quyết, ta có các chiến lược mở rộng:\n• Parent-Child Indexing (Small-to-Big):\n– Chia văn bản thành các khối lớn, ví dụ 1000 tokens, gọi là Parent chunks để chứa\nngữ cảnh đầy đủ.",
+            "metadata": {
+              "section": "ly_thuyet_co_ban",
+              "strategy": "B",
+              "chunk_index": 1,
+              "char_length": 690
+            },
+            "score": 0.7015690620972069,
+            "rank": 2,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p5_b00",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 5,
+            "text": "II.1. Sự chuyển dịch sang In-Context RAG\nMặc dù thuật ngữ RAG vẫn được giữ nguyên, tư duy triển khai kỹ thuật này đã thay đổi căn\nbản cùng với sự phát triển của các LLM:\n• Original RAG (2020): Là hướng tiếp cận dựa trên fine-tuning. Như đã đề cập ở phần\ntrên, mô hình gốc yêu cầu huấn luyện đồng thời cả bộ truy xuất và mô hình sinh văn bản\nđể chúng học cách phối hợp với nhau. Trọng số của mô hình thay đổi trong quá trình này. • Modern RAG (Hiện nay): Là hướng tiếp cận dựa trên In-Context Learning. Với sự\nbùng nổ của các LLM cực lớn có khả năng hiểu ngữ cảnh rộng, RAG hiện đại thường ám\nchỉ quy trình “Retrieve and Prompt”.",
+            "metadata": {
+              "section": "ly_thuyet_co_ban",
+              "strategy": "B",
+              "chunk_index": 0,
+              "char_length": 628
+            },
+            "score": 0.7011870066208776,
+            "rank": 3,
+            "retriever": "dense"
+          }
+        ],
+        "context": "[aio2025-tutorial-rag_p15_b00 | D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf | page 15]\nII.3. Mở rộng: Phân tích vai trò của các thành phần\nĐể đánh giá chính xác tầm quan trọng của từng module trong kiến trúc RAG, chúng ta cùng\nphân tích các giả định theo câu hỏi: “Hệ thống sẽ hoạt động như thế nào nếu loại bỏ một thành\nphần cụ thể?”. Kịch bản 1: Loại bỏ Embedding Model\nVai trò Embedding Model: Chuyển đổi văn bản sang vector để hỗ trợ truy vấn theo\nngữ nghĩa. • Cơ chế hoạt động: Khi không có Embedding Model, hệ thống không thể mã hóa văn\nbản thành vector và mất khả năng so sánh tương đồng ngữ nghĩa. Buộc phải quay về\ncác phương pháp truy vấn theo mặt chữ (Lexical Retrieval) như BM25, TF-IDF hoặc\nExact Match.",
+        "context_ids": [
+          "aio2025-tutorial-rag_p15_b00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "LLM role in RAG expanded script analysis",
+        "filter": null,
+        "results": [
+          {
+            "id": "aio2025-tutorial-rag_p15_b00",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 15,
+            "text": "II.3. Mở rộng: Phân tích vai trò của các thành phần\nĐể đánh giá chính xác tầm quan trọng của từng module trong kiến trúc RAG, chúng ta cùng\nphân tích các giả định theo câu hỏi: “Hệ thống sẽ hoạt động như thế nào nếu loại bỏ một thành\nphần cụ thể?”. Kịch bản 1: Loại bỏ Embedding Model\nVai trò Embedding Model: Chuyển đổi văn bản sang vector để hỗ trợ truy vấn theo\nngữ nghĩa. • Cơ chế hoạt động: Khi không có Embedding Model, hệ thống không thể mã hóa văn\nbản thành vector và mất khả năng so sánh tương đồng ngữ nghĩa. Buộc phải quay về\ncác phương pháp truy vấn theo mặt chữ (Lexical Retrieval) như BM25, TF-IDF hoặc\nExact Match.",
+            "metadata": {
+              "section": "phan_tich_vai_tro",
+              "strategy": "B",
+              "chunk_index": 0,
+              "char_length": 629
+            },
+            "score": 0.7240193920983784,
+            "rank": 1,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p8_b01",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 8,
+            "text": "Các mô hình ngôn ngữ lớn giúp chúng ta xử lý\nvà phân tích khối lượng dữ liệu khổng lồ chỉ trong tích tắc. Tuy nhiên,\nviệc ứng dụng công nghệ này đòi hỏi sự hiểu biết sâu sắc để đảm bảo\ntính chính xác và an toàn. overlap\nHình 7: Minh họa cho khái niệm Chunk Overlap. 3. Chiến lược Indexing nâng cao\nỞ RAG cơ bản, đoạn văn bản dùng để tìm kiếm và đoạn văn bản đưa cho LLM cùng là\nmột. Tuy nhiên, điều này có thể nảy sinh mâu thuẫn: chunk nhỏ tốt cho tìm kiếm, chunk\nlớn tốt cho LLM do có nhiều ngữ cảnh hơn. Để giải quyết, ta có các chiến lược mở rộng:\n• Parent-Child Indexing (Small-to-Big):\n– Chia văn bản thành các khối lớn, ví dụ 1000 tokens, gọi là Parent chunks để chứa\nngữ cảnh đầy đủ.",
+            "metadata": {
+              "section": "ly_thuyet_co_ban",
+              "strategy": "B",
+              "chunk_index": 1,
+              "char_length": 690
+            },
+            "score": 0.7015690620972069,
+            "rank": 2,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p5_b00",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 5,
+            "text": "II.1. Sự chuyển dịch sang In-Context RAG\nMặc dù thuật ngữ RAG vẫn được giữ nguyên, tư duy triển khai kỹ thuật này đã thay đổi căn\nbản cùng với sự phát triển của các LLM:\n• Original RAG (2020): Là hướng tiếp cận dựa trên fine-tuning. Như đã đề cập ở phần\ntrên, mô hình gốc yêu cầu huấn luyện đồng thời cả bộ truy xuất và mô hình sinh văn bản\nđể chúng học cách phối hợp với nhau. Trọng số của mô hình thay đổi trong quá trình này. • Modern RAG (Hiện nay): Là hướng tiếp cận dựa trên In-Context Learning. Với sự\nbùng nổ của các LLM cực lớn có khả năng hiểu ngữ cảnh rộng, RAG hiện đại thường ám\nchỉ quy trình “Retrieve and Prompt”.",
+            "metadata": {
+              "section": "ly_thuyet_co_ban",
+              "strategy": "B",
+              "chunk_index": 0,
+              "char_length": 628
+            },
+            "score": 0.7011870066208777,
+            "rank": 3,
+            "retriever": "dense"
+          }
+        ],
+        "context": "[aio2025-tutorial-rag_p15_b00 | D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf | page 15]\nII.3. Mở rộng: Phân tích vai trò của các thành phần\nĐể đánh giá chính xác tầm quan trọng của từng module trong kiến trúc RAG, chúng ta cùng\nphân tích các giả định theo câu hỏi: “Hệ thống sẽ hoạt động như thế nào nếu loại bỏ một thành\nphần cụ thể?”. Kịch bản 1: Loại bỏ Embedding Model\nVai trò Embedding Model: Chuyển đổi văn bản sang vector để hỗ trợ truy vấn theo\nngữ nghĩa. • Cơ chế hoạt động: Khi không có Embedding Model, hệ thống không thể mã hóa văn\nbản thành vector và mất khả năng so sánh tương đồng ngữ nghĩa. Buộc phải quay về\ncác phương pháp truy vấn theo mặt chữ (Lexical Retrieval) như BM25, TF-IDF hoặc\nExact Match.",
+        "context_ids": [
+          "aio2025-tutorial-rag_p15_b00"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "query_id": "q19",
+    "elapsed_s": 44.05016479999995
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "default persist_dir LangChain RAG database storage",
+        "filter": null,
+        "results": [
+          {
+            "id": "aio2025-tutorial-rag_p22_b02",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 22,
+            "text": "1 import os\n2 import sys\n4 PROJECT_ROOT = \"/content/rag_langchain\"\n6 # Đặt token để tải mô hình private, hãy thay bằng token của bạn\n7 os.environ[\"HF_TOKEN\"] = \"YOUR_HUGGINGFACE_TOKEN\"\n8 # Tạo thư mục cho dữ liệu và mã nguồn\n9 os.makedirs(os.path.join(PROJECT_ROOT, \"data_source\", \"generative_ai\"), exist_ok=True)\n10 os.makedirs(os.path.join(PROJECT_ROOT, \"src\", \"base\"), exist_ok=True)\n11 os.makedirs(os.path.join(PROJECT_ROOT, \"src\", \"rag\"), exist_ok=True)\n13 os.chdir(PROJECT_ROOT)\n15 # Thêm PROJECT_ROOT vào sys.path để có thể import các module trong src\n16 if PROJECT_ROOT not in sys.path:\n17 sys.path.append(PROJECT_ROOT)\n19 os.environ[\"TOKENIZERS_PARALLELISM\"] = \"false\"\nCuối cùng, chúng ta tạ",
+            "metadata": {
+              "section": "thuc_hanh_pipeline",
+              "strategy": "B",
+              "chunk_index": 2,
+              "char_length": 700
+            },
+            "score": 0.7030668544435408,
+            "rank": 1,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p26_b01",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 26,
+            "text": "_name=self.collection_name,\n34 persist_directory=self.persist_dir,\n35 )\n36 return db\n38 # Tạo retriever để tìm kiếm tương đồng\n39 def get_retriever(self, search_kwargs: dict = None):\n40 if search_kwargs is None:\n41 search_kwargs = {\"k\": 4} # Mặc định lấy 4 document gần nhất\n43 return self.db.as_retriever(\n44 search_type=\"similarity\",\n45 search_kwargs=search_kwargs,\n46 )\nIV.5.",
+            "metadata": {
+              "section": "thuc_hanh_pipeline",
+              "strategy": "B",
+              "chunk_index": 1,
+              "char_length": 378
+            },
+            "score": 0.7004805061332269,
+            "rank": 2,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p19_b00",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 19,
+            "text": "3. Vector Stores\nVectorStore trong LangChain chịu trách nhiệm lưu trữ các đối tượng Document và vector\ntương ứng, đồng thời cung cấp phương thức để truy vấn tới chúng. Gồm hai chức năng\nchính:\n• Indexing: Thêm văn bản vào kho lưu trữ thông qua phương thức add_documents. • Querying: Tìm kiếm văn bản dựa trên độ tương đồng giữa hai vector với phương\nthức similarity_search. LangChain tích hợp với nhiều loại vector store: từ dạng lưu trong bộ nhớ như FAISS và\nInMemoryVectorStore,đếncáccơsởdữliệuchuyêndụngvới Chroma, Pinecone, Postgres.",
+            "metadata": {
+              "section": "gioi_thieu_langchain",
+              "strategy": "B",
+              "chunk_index": 0,
+              "char_length": 537
+            },
+            "score": 0.6998435452582068,
+            "rank": 3,
+            "retriever": "dense"
+          }
+        ],
+        "context": "[aio2025-tutorial-rag_p22_b02 | D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf | page 22]\n1 import os\n2 import sys\n4 PROJECT_ROOT = \"/content/rag_langchain\"\n6 # Đặt token để tải mô hình private, hãy thay bằng token của bạn\n7 os.environ[\"HF_TOKEN\"] = \"YOUR_HUGGINGFACE_TOKEN\"\n8 # Tạo thư mục cho dữ liệu và mã nguồn\n9 os.makedirs(os.path.join(PROJECT_ROOT, \"data_source\", \"generative_ai\"), exist_ok=True)\n10 os.makedirs(os.path.join(PROJECT_ROOT, \"src\", \"base\"), exist_ok=True)\n11 os.makedirs(os.path.join(PROJECT_ROOT, \"src\", \"rag\"), exist_ok=True)\n13 os.chdir(PROJECT_ROOT)\n15 # Thêm PROJECT_ROOT vào sys.path để có thể import các module trong src\n16 if PROJECT_ROOT not in sys.path:\n17 sys.path.append(PROJECT_ROOT)\n19 os.environ[\"TOKENIZERS_PARALLELISM\"] = \"false\"\nCuối cùng, chúng ta tạ",
+        "context_ids": [
+          "aio2025-tutorial-rag_p22_b02"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "default persist_dir LangChain RAG practical",
+        "filter": null,
+        "results": [
+          {
+            "id": "aio2025-tutorial-rag_p22_b02",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 22,
+            "text": "1 import os\n2 import sys\n4 PROJECT_ROOT = \"/content/rag_langchain\"\n6 # Đặt token để tải mô hình private, hãy thay bằng token của bạn\n7 os.environ[\"HF_TOKEN\"] = \"YOUR_HUGGINGFACE_TOKEN\"\n8 # Tạo thư mục cho dữ liệu và mã nguồn\n9 os.makedirs(os.path.join(PROJECT_ROOT, \"data_source\", \"generative_ai\"), exist_ok=True)\n10 os.makedirs(os.path.join(PROJECT_ROOT, \"src\", \"base\"), exist_ok=True)\n11 os.makedirs(os.path.join(PROJECT_ROOT, \"src\", \"rag\"), exist_ok=True)\n13 os.chdir(PROJECT_ROOT)\n15 # Thêm PROJECT_ROOT vào sys.path để có thể import các module trong src\n16 if PROJECT_ROOT not in sys.path:\n17 sys.path.append(PROJECT_ROOT)\n19 os.environ[\"TOKENIZERS_PARALLELISM\"] = \"false\"\nCuối cùng, chúng ta tạ",
+            "metadata": {
+              "section": "thuc_hanh_pipeline",
+              "strategy": "B",
+              "chunk_index": 2,
+              "char_length": 700
+            },
+            "score": 0.729336416521394,
+            "rank": 1,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p1_b01",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 1,
+            "text": "RAG\ncho phép LLMs tiếp cận nguồn dữ liệu bên ngoài mà không cần trải qua quá trình fine-tuning\ntốn kém hay phải huấn luyện lại. Để giới thiệu về RAG, bài viết này đi sâu vào kiến trúc và cách\ntriển khai, bao gồm:\n1. Phân tích sâu khái niệm, kiến trúc, pipeline cơ bản của RAG. 2. Giới thiệu framework LangChain, công cụ mạnh mẽ cho các ứng dụng sử dụng LLM. 3. Xây dựng hệ thống QA System trên tài liệu PDF học thuật. Dữ liệu\nhuấn luyện\nKhoá học\nAIO2025 có bao\nnhiêu module? RAGDữ liệu\nAIVN\n10 module\n12 module\nHình 1: Minh hoạ LLM khi có (đường xanh lá) và không sử dụng RAG (đường màu đỏ).",
+            "metadata": {
+              "section": "dan_nhap",
+              "strategy": "B",
+              "chunk_index": 1,
+              "char_length": 591
+            },
+            "score": 0.6990160497535862,
+            "rank": 2,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p23_b00",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 23,
+            "text": "3 touch /content/rag_langchain/src/base/__init__.py\n4 touch /content/rag_langchain/src/rag/__init__.py\nIV.2. Chuẩn bị dữ liệu PDF đầu vào\nTại bước này, ta tải các tài liệu PDF dùng làm dữ liệu cho hệ thống RAG. Các tài liệu này được\ntrích từ các bài viết công khai của AI VIET NAM, sau đó được lưu vào một thư mục chung để\nphục vụ cho bước xử lý văn bản và xây dựng vector database.",
+            "metadata": {
+              "section": "thuc_hanh_pipeline",
+              "strategy": "B",
+              "chunk_index": 0,
+              "char_length": 382
+            },
+            "score": 0.6978029144901368,
+            "rank": 3,
+            "retriever": "dense"
+          }
+        ],
+        "context": "[aio2025-tutorial-rag_p22_b02 | D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf | page 22]\n1 import os\n2 import sys\n4 PROJECT_ROOT = \"/content/rag_langchain\"\n6 # Đặt token để tải mô hình private, hãy thay bằng token của bạn\n7 os.environ[\"HF_TOKEN\"] = \"YOUR_HUGGINGFACE_TOKEN\"\n8 # Tạo thư mục cho dữ liệu và mã nguồn\n9 os.makedirs(os.path.join(PROJECT_ROOT, \"data_source\", \"generative_ai\"), exist_ok=True)\n10 os.makedirs(os.path.join(PROJECT_ROOT, \"src\", \"base\"), exist_ok=True)\n11 os.makedirs(os.path.join(PROJECT_ROOT, \"src\", \"rag\"), exist_ok=True)\n13 os.chdir(PROJECT_ROOT)\n15 # Thêm PROJECT_ROOT vào sys.path để có thể import các module trong src\n16 if PROJECT_ROOT not in sys.path:\n17 sys.path.append(PROJECT_ROOT)\n19 os.environ[\"TOKENIZERS_PARALLELISM\"] = \"false\"\nCuối cùng, chúng ta tạ",
+        "context_ids": [
+          "aio2025-tutorial-rag_p22_b02"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "query_id": "q20",
+    "elapsed_s": 24.217569499999627
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Speculative RAG Drafter Verifier mechanism",
+        "filter": null,
+        "results": [
+          {
+            "id": "aio2025-tutorial-rag_p4_b02",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 4,
+            "text": "(y)\nQuestion Answering:\nAnswer GenerationRetriever pη\n(Non-Parametric)\nz4\nz3\nz2\nz1\nd(z)\nJeopardy Question\nGeneration:\nAnswer Query\nHình 2: Tổng quan kiến trúc RAG trong bài báo gốc của Patrick Lewis (2020). Trong công trình này, nhóm tác giả định nghĩa RAG là một mô hình xác suất lai (hybrid\nprobabilistic model) kết hợp giữa hai dạng bộ nhớ nhằm khắc phục nhược điểm của các\nmô hình Pre-trained Seq2Seq truyền thống:\n• Parametric Memory (Bộ nhớ tham số): Là tri thức ẩn được lưu trữ trong\ntrọng số của một mô hình sinh chuỗi (Pre-trained Seq2Seq Transformer). Cụ thể\ntrong bài báo, tác giả sử dụng mô hình BART (Bidirectional and Auto-Regressive\nTransformers) làm Generator.",
+            "metadata": {
+              "section": "ly_thuyet_co_ban",
+              "strategy": "B",
+              "chunk_index": 2,
+              "char_length": 676
+            },
+            "score": 0.6931967465648867,
+            "rank": 1,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p5_b00",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 5,
+            "text": "II.1. Sự chuyển dịch sang In-Context RAG\nMặc dù thuật ngữ RAG vẫn được giữ nguyên, tư duy triển khai kỹ thuật này đã thay đổi căn\nbản cùng với sự phát triển của các LLM:\n• Original RAG (2020): Là hướng tiếp cận dựa trên fine-tuning. Như đã đề cập ở phần\ntrên, mô hình gốc yêu cầu huấn luyện đồng thời cả bộ truy xuất và mô hình sinh văn bản\nđể chúng học cách phối hợp với nhau. Trọng số của mô hình thay đổi trong quá trình này. • Modern RAG (Hiện nay): Là hướng tiếp cận dựa trên In-Context Learning. Với sự\nbùng nổ của các LLM cực lớn có khả năng hiểu ngữ cảnh rộng, RAG hiện đại thường ám\nchỉ quy trình “Retrieve and Prompt”.",
+            "metadata": {
+              "section": "ly_thuyet_co_ban",
+              "strategy": "B",
+              "chunk_index": 0,
+              "char_length": 628
+            },
+            "score": 0.6875568509995592,
+            "rank": 2,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p31_b01",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 31,
+            "text": "Mã truy cập bí mật là 2245. Vui lòng không chia sẻ. Chunk size = 6\nA\nB\nNếu người dùng hỏi: “Mã truy cập bí mật là gì?”, kết quả nào sau đây phản ánh chính xác\nnhất hoạt động của hệ thống RAG? (a) Hệ thống tìm thấy Chunk B vì nó chứa con số cụ thể, và LLM trả lời chính xác mã số. (b) Hệ thống tìm thấy Chunk A, nhưng LLM sẽ không trả lời được mã số vì thông tin này\nnằm ở Chunk B, vốn không được tìm thấy. (c) Hệ thống sẽ tự động tìm thấy cả Chunk A và Chunk B nhờ cơ chế suy luận bắc cầu của\nVector Database. (d) Hệ thống không tìm thấy cả hai chunk vì câu văn bị cắt đôi làm hỏng cấu trúc ngữ pháp. 3.",
+            "metadata": {
+              "section": "cau_hoi_trac_nghiem",
+              "strategy": "B",
+              "chunk_index": 1,
+              "char_length": 603
+            },
+            "score": 0.6864414481342309,
+            "rank": 3,
+            "retriever": "dense"
+          }
+        ],
+        "context": "[aio2025-tutorial-rag_p4_b02 | D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf | page 4]\n(y)\nQuestion Answering:\nAnswer GenerationRetriever pη\n(Non-Parametric)\nz4\nz3\nz2\nz1\nd(z)\nJeopardy Question\nGeneration:\nAnswer Query\nHình 2: Tổng quan kiến trúc RAG trong bài báo gốc của Patrick Lewis (2020). Trong công trình này, nhóm tác giả định nghĩa RAG là một mô hình xác suất lai (hybrid\nprobabilistic model) kết hợp giữa hai dạng bộ nhớ nhằm khắc phục nhược điểm của các\nmô hình Pre-trained Seq2Seq truyền thống:\n• Parametric Memory (Bộ nhớ tham số): Là tri thức ẩn được lưu trữ trong\ntrọng số của một mô hình sinh chuỗi (Pre-trained Seq2Seq Transformer). Cụ thể\ntrong bài báo, tác giả sử dụng mô hình BART (Bidirectional and Auto-Regressive\nTransformers) làm Generator.",
+        "context_ids": [
+          "aio2025-tutorial-rag_p4_b02"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Speculative RAG Drafter Verifier mechanism",
+        "filter": null,
+        "results": [
+          {
+            "id": "aio2025-tutorial-rag_p4_b02",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 4,
+            "text": "(y)\nQuestion Answering:\nAnswer GenerationRetriever pη\n(Non-Parametric)\nz4\nz3\nz2\nz1\nd(z)\nJeopardy Question\nGeneration:\nAnswer Query\nHình 2: Tổng quan kiến trúc RAG trong bài báo gốc của Patrick Lewis (2020). Trong công trình này, nhóm tác giả định nghĩa RAG là một mô hình xác suất lai (hybrid\nprobabilistic model) kết hợp giữa hai dạng bộ nhớ nhằm khắc phục nhược điểm của các\nmô hình Pre-trained Seq2Seq truyền thống:\n• Parametric Memory (Bộ nhớ tham số): Là tri thức ẩn được lưu trữ trong\ntrọng số của một mô hình sinh chuỗi (Pre-trained Seq2Seq Transformer). Cụ thể\ntrong bài báo, tác giả sử dụng mô hình BART (Bidirectional and Auto-Regressive\nTransformers) làm Generator.",
+            "metadata": {
+              "section": "ly_thuyet_co_ban",
+              "strategy": "B",
+              "chunk_index": 2,
+              "char_length": 676
+            },
+            "score": 0.6931967465648867,
+            "rank": 1,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p5_b00",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 5,
+            "text": "II.1. Sự chuyển dịch sang In-Context RAG\nMặc dù thuật ngữ RAG vẫn được giữ nguyên, tư duy triển khai kỹ thuật này đã thay đổi căn\nbản cùng với sự phát triển của các LLM:\n• Original RAG (2020): Là hướng tiếp cận dựa trên fine-tuning. Như đã đề cập ở phần\ntrên, mô hình gốc yêu cầu huấn luyện đồng thời cả bộ truy xuất và mô hình sinh văn bản\nđể chúng học cách phối hợp với nhau. Trọng số của mô hình thay đổi trong quá trình này. • Modern RAG (Hiện nay): Là hướng tiếp cận dựa trên In-Context Learning. Với sự\nbùng nổ của các LLM cực lớn có khả năng hiểu ngữ cảnh rộng, RAG hiện đại thường ám\nchỉ quy trình “Retrieve and Prompt”.",
+            "metadata": {
+              "section": "ly_thuyet_co_ban",
+              "strategy": "B",
+              "chunk_index": 0,
+              "char_length": 628
+            },
+            "score": 0.6875568509995592,
+            "rank": 2,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p31_b01",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 31,
+            "text": "Mã truy cập bí mật là 2245. Vui lòng không chia sẻ. Chunk size = 6\nA\nB\nNếu người dùng hỏi: “Mã truy cập bí mật là gì?”, kết quả nào sau đây phản ánh chính xác\nnhất hoạt động của hệ thống RAG? (a) Hệ thống tìm thấy Chunk B vì nó chứa con số cụ thể, và LLM trả lời chính xác mã số. (b) Hệ thống tìm thấy Chunk A, nhưng LLM sẽ không trả lời được mã số vì thông tin này\nnằm ở Chunk B, vốn không được tìm thấy. (c) Hệ thống sẽ tự động tìm thấy cả Chunk A và Chunk B nhờ cơ chế suy luận bắc cầu của\nVector Database. (d) Hệ thống không tìm thấy cả hai chunk vì câu văn bị cắt đôi làm hỏng cấu trúc ngữ pháp. 3.",
+            "metadata": {
+              "section": "cau_hoi_trac_nghiem",
+              "strategy": "B",
+              "chunk_index": 1,
+              "char_length": 603
+            },
+            "score": 0.6864414481342309,
+            "rank": 3,
+            "retriever": "dense"
+          }
+        ],
+        "context": "[aio2025-tutorial-rag_p4_b02 | D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf | page 4]\n(y)\nQuestion Answering:\nAnswer GenerationRetriever pη\n(Non-Parametric)\nz4\nz3\nz2\nz1\nd(z)\nJeopardy Question\nGeneration:\nAnswer Query\nHình 2: Tổng quan kiến trúc RAG trong bài báo gốc của Patrick Lewis (2020). Trong công trình này, nhóm tác giả định nghĩa RAG là một mô hình xác suất lai (hybrid\nprobabilistic model) kết hợp giữa hai dạng bộ nhớ nhằm khắc phục nhược điểm của các\nmô hình Pre-trained Seq2Seq truyền thống:\n• Parametric Memory (Bộ nhớ tham số): Là tri thức ẩn được lưu trữ trong\ntrọng số của một mô hình sinh chuỗi (Pre-trained Seq2Seq Transformer). Cụ thể\ntrong bài báo, tác giả sử dụng mô hình BART (Bidirectional and Auto-Regressive\nTransformers) làm Generator.",
+        "context_ids": [
+          "aio2025-tutorial-rag_p4_b02"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "query_id": "q_test_abs01",
+    "elapsed_s": 25.33645990000059
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "ColBERT late interaction MaxSim retrieval",
+        "filter": null,
+        "results": [
+          {
+            "id": "aio2025-tutorial-rag_p19_b02",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 19,
+            "text": "Trong đó, có thể bổ sung các tham số tìm kiếm như search_kwargs và loại tìm kiếm\nsearch_type:\n• similarity: Tìm kiếm tương đồng mặc định. • mmr (Maximum Marginal Relevance): Cân bằng giữa độ tương đồng và độ đa dạng\ncủa kết quả. • similarity_score_threshold: Lọc bỏ các kết quả có điểm tương đồng thấp hơn\nngưỡng quy định. 1 # Tạo Retriever từ Vector Store\n2 retriever = vector_store.as_retriever(\n3 search_type=\"similarity\",\n4 search_kwargs={\"k\": 1} # Chỉ lấy 1 kết quả tốt nhất\n5 )\n7 # Thực thi tìm kiếm (Batch)\n8 retriever.batch([\n9 \"How many distribution centers does Nike have in the US?\",",
+            "metadata": {
+              "section": "gioi_thieu_langchain",
+              "strategy": "B",
+              "chunk_index": 2,
+              "char_length": 594
+            },
+            "score": 0.7260945644963896,
+            "rank": 1,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p16_b01",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 16,
+            "text": "• Hệ quả: Hệ thống trở thành Semantic Search / Retrieval System, mạnh về truy vấn\ntheo ngữ nghĩa, nhưng không còn thành phần Generation, nên chưa phải là chatbot hay\nhệ RAG hoàn chỉnh. Thành phần thiếu Hệ thống trở thành Hạn chế cốt lõi\nEmbedding Model Lexical Retrieval-driven RAG\nRAG dựa trên truy vấn từ khóa\nGiảm mạnh truy vấn theo ngữ\nnghĩa, khó bắt từ đồng nghĩa,\nvà dễ bỏ sót thông tin. Vector\nStore/ANN Index\nUnscalable Prototype\nMô hình khó mở rộng\nĐộ trễ tăng mạnh ở dữ liệu lớn,\nkhó vận hành hệ thống. LLM Semantic Search / Retrieval\nSystem\nHệ truy vấn ngữ nghĩa\nKhông thể tổng hợp, diễn giải,\nvà trả lời hội thoại; người dùng\nphải tự đọc và rút kết luận từ\ncác đoạn trích.",
+            "metadata": {
+              "section": "phan_tich_vai_tro",
+              "strategy": "B",
+              "chunk_index": 1,
+              "char_length": 684
+            },
+            "score": 0.7033492517992163,
+            "rank": 2,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p31_b02",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 31,
+            "text": "Tại sao mô hình Cross-Encoder lại có độ chính xác cao hơn Bi-Encoder, mặc dù Cross-Encoder\nchậm hơn rất nhiều? (a) Vì Cross-Encoder quan sát được sự tương tác trực tiếp giữa từng token của câu hỏi và\ntừng token của tài liệu cùng lúc. (b) Vì Cross-Encoder nén câu hỏi và tài liệu thành các vector có số chiều lớn hơn. (c) Vì Cross-Encoder sử dụng cơ sở dữ liệu đồ thị Graph Database thay vì Vector Database. (d) Vì Cross-Encoder thực hiện việc tìm kiếm từ khóa chính xác thay vì tìm kiếm ngữ nghĩa. 4. Để khắc phục hiện tượng “Lost in the Middle”, chiến lược sắp xếp ngữ cảnh nào sau đây là\ntối ưu nhất trước khi gửi cho LLM?",
+            "metadata": {
+              "section": "cau_hoi_trac_nghiem",
+              "strategy": "B",
+              "chunk_index": 2,
+              "char_length": 624
+            },
+            "score": 0.6998710912128692,
+            "rank": 3,
+            "retriever": "dense"
+          }
+        ],
+        "context": "[aio2025-tutorial-rag_p19_b02 | D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf | page 19]\nTrong đó, có thể bổ sung các tham số tìm kiếm như search_kwargs và loại tìm kiếm\nsearch_type:\n• similarity: Tìm kiếm tương đồng mặc định. • mmr (Maximum Marginal Relevance): Cân bằng giữa độ tương đồng và độ đa dạng\ncủa kết quả. • similarity_score_threshold: Lọc bỏ các kết quả có điểm tương đồng thấp hơn\nngưỡng quy định. 1 # Tạo Retriever từ Vector Store\n2 retriever = vector_store.as_retriever(\n3 search_type=\"similarity\",\n4 search_kwargs={\"k\": 1} # Chỉ lấy 1 kết quả tốt nhất\n5 )\n7 # Thực thi tìm kiếm (Batch)\n8 retriever.batch([\n9 \"How many distribution centers does Nike have in the US?\",",
+        "context_ids": [
+          "aio2025-tutorial-rag_p19_b02"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "ColBERT late interaction MaxSim retrieval",
+        "filter": null,
+        "results": [
+          {
+            "id": "aio2025-tutorial-rag_p19_b02",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 19,
+            "text": "Trong đó, có thể bổ sung các tham số tìm kiếm như search_kwargs và loại tìm kiếm\nsearch_type:\n• similarity: Tìm kiếm tương đồng mặc định. • mmr (Maximum Marginal Relevance): Cân bằng giữa độ tương đồng và độ đa dạng\ncủa kết quả. • similarity_score_threshold: Lọc bỏ các kết quả có điểm tương đồng thấp hơn\nngưỡng quy định. 1 # Tạo Retriever từ Vector Store\n2 retriever = vector_store.as_retriever(\n3 search_type=\"similarity\",\n4 search_kwargs={\"k\": 1} # Chỉ lấy 1 kết quả tốt nhất\n5 )\n7 # Thực thi tìm kiếm (Batch)\n8 retriever.batch([\n9 \"How many distribution centers does Nike have in the US?\",",
+            "metadata": {
+              "section": "gioi_thieu_langchain",
+              "strategy": "B",
+              "chunk_index": 2,
+              "char_length": 594
+            },
+            "score": 0.7260945644963896,
+            "rank": 1,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p16_b01",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 16,
+            "text": "• Hệ quả: Hệ thống trở thành Semantic Search / Retrieval System, mạnh về truy vấn\ntheo ngữ nghĩa, nhưng không còn thành phần Generation, nên chưa phải là chatbot hay\nhệ RAG hoàn chỉnh. Thành phần thiếu Hệ thống trở thành Hạn chế cốt lõi\nEmbedding Model Lexical Retrieval-driven RAG\nRAG dựa trên truy vấn từ khóa\nGiảm mạnh truy vấn theo ngữ\nnghĩa, khó bắt từ đồng nghĩa,\nvà dễ bỏ sót thông tin. Vector\nStore/ANN Index\nUnscalable Prototype\nMô hình khó mở rộng\nĐộ trễ tăng mạnh ở dữ liệu lớn,\nkhó vận hành hệ thống. LLM Semantic Search / Retrieval\nSystem\nHệ truy vấn ngữ nghĩa\nKhông thể tổng hợp, diễn giải,\nvà trả lời hội thoại; người dùng\nphải tự đọc và rút kết luận từ\ncác đoạn trích.",
+            "metadata": {
+              "section": "phan_tich_vai_tro",
+              "strategy": "B",
+              "chunk_index": 1,
+              "char_length": 684
+            },
+            "score": 0.7033492517992163,
+            "rank": 2,
+            "retriever": "dense"
+          },
+          {
+            "id": "aio2025-tutorial-rag_p31_b02",
+            "source_id": "aio2025-tutorial-rag",
+            "source": "D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf",
+            "page": 31,
+            "text": "Tại sao mô hình Cross-Encoder lại có độ chính xác cao hơn Bi-Encoder, mặc dù Cross-Encoder\nchậm hơn rất nhiều? (a) Vì Cross-Encoder quan sát được sự tương tác trực tiếp giữa từng token của câu hỏi và\ntừng token của tài liệu cùng lúc. (b) Vì Cross-Encoder nén câu hỏi và tài liệu thành các vector có số chiều lớn hơn. (c) Vì Cross-Encoder sử dụng cơ sở dữ liệu đồ thị Graph Database thay vì Vector Database. (d) Vì Cross-Encoder thực hiện việc tìm kiếm từ khóa chính xác thay vì tìm kiếm ngữ nghĩa. 4. Để khắc phục hiện tượng “Lost in the Middle”, chiến lược sắp xếp ngữ cảnh nào sau đây là\ntối ưu nhất trước khi gửi cho LLM?",
+            "metadata": {
+              "section": "cau_hoi_trac_nghiem",
+              "strategy": "B",
+              "chunk_index": 2,
+              "char_length": 624
+            },
+            "score": 0.6998710912128692,
+            "rank": 3,
+            "retriever": "dense"
+          }
+        ],
+        "context": "[aio2025-tutorial-rag_p19_b02 | D:\\AI20K\\Lab06\\K5-L3B-DAY06-HoangNgocHieu-2A202603976-DataIngestion\\data\\AIO2025_Tutorial_RAG.pdf | page 19]\nTrong đó, có thể bổ sung các tham số tìm kiếm như search_kwargs và loại tìm kiếm\nsearch_type:\n• similarity: Tìm kiếm tương đồng mặc định. • mmr (Maximum Marginal Relevance): Cân bằng giữa độ tương đồng và độ đa dạng\ncủa kết quả. • similarity_score_threshold: Lọc bỏ các kết quả có điểm tương đồng thấp hơn\nngưỡng quy định. 1 # Tạo Retriever từ Vector Store\n2 retriever = vector_store.as_retriever(\n3 search_type=\"similarity\",\n4 search_kwargs={\"k\": 1} # Chỉ lấy 1 kết quả tốt nhất\n5 )\n7 # Thực thi tìm kiếm (Batch)\n8 retriever.batch([\n9 \"How many distribution centers does Nike have in the US?\",",
+        "context_ids": [
+          "aio2025-tutorial-rag_p19_b02"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "query_id": "q_test_abs02",
+    "elapsed_s": 94.52322749999985
+  }
+]
